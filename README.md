@@ -25,3 +25,17 @@ Learning the coding day by day
 
 [61. Rotate List
 ](https://leetcode.com/problems/rotate-list/) 难度不大，巧妙。将链表改变为环形链表然后移动。
+
+
+[125. Valid Palindrome
+](https://leetcode.com/problems/valid-palindrome/?tab=Solutions) 简单题，判断回文字符串。使用字符数字判断函数Character.isLetterOrDigit()。下面这个代码很巧妙。
+
+```
+public class Solution {
+    public boolean isPalindrome(String s) {
+        String actual = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+        String rev = new StringBuffer(actual).reverse().toString();
+        return actual.equals(rev);
+    }
+}
+```
