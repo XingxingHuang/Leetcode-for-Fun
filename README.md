@@ -22,3 +22,6 @@ Learning the coding day by day
 
 [19. Remove Nth Node From End of List
 ](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 用双指针操作链表。思路比较巧，难度不大。
+
+[61. Rotate List
+](https://leetcode.com/problems/rotate-list/) 难度不大，巧妙。将链表改变为环形链表然后移动。
