@@ -28,14 +28,9 @@ Learning the coding day by day
 
 
 [125. Valid Palindrome
-](https://leetcode.com/problems/valid-palindrome/?tab=Solutions) 简单题，判断回文字符串。使用字符数字判断函数Character.isLetterOrDigit()。下面这个代码很巧妙。
+](https://leetcode.com/problems/valid-palindrome/?tab=Solutions) 简单题，判断回文字符串。使用字符数字判断函数Character.isLetterOrDigit()。还有一个[简洁解法](125_easySolution.java)，不过调用了库函数。
 
-```
-public class Solution {
-    public boolean isPalindrome(String s) {
-        String actual = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
-        String rev = new StringBuffer(actual).reverse().toString();
-        return actual.equals(rev);
-    }
-}
-```
+[9. Palindrome Number] (https://leetcode.com/problems/palindrome-number/?tab=Solutions) 回文数字的判断，注意情况的判断，有一定的tricky。
+
+[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/?tab=Solutions) 在O(n)的时间复杂度下判断链表的回文情况，这里用到了快慢指针，注意考虑指针的数目和指针的多少。运用到了链表的reverse。
+
