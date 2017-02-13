@@ -34,3 +34,4 @@ Learning the coding day by day
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/?tab=Solutions) 在O(n)的时间复杂度下判断链表的回文情况，这里用到了快慢指针，注意考虑指针的数目和指针的多少。运用到了链表的reverse。
 
+[25. Reverse Nodes in k-Group] (https://leetcode.com/problems/reverse-nodes-in-k-group/?tab=Solutions) 递归的指针操作。思想不难，体会到了递归的困难之处。用递归结题时请考虑好每次递归的初始条件输出条件。其实一般程序都应如此。
