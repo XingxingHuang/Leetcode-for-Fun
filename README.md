@@ -47,3 +47,16 @@ Learning the coding day by day
 [385. Mini Parser](https://leetcode.com/problems/mini-parser/?tab=Description) 练习堆栈的好题，容易出错。 
 
 	> recursion 和 stack 方法往往是可以相互转化的
+	
+[67. Add Binary](https://leetcode.com/problems/add-binary/?tab=Solutions) string练手题目。字符与数字的相关操作。
+
+> Integer.parseInt(string)	
+>  int i = Integer.valueOf(my_str).intValue();	
+> StringBuilder s = new StringBuilder();	
+> s.reverse().toString();	
+> String s = String.valueOf(i);	
+> String s = Integer.toString(i);	
+> String s = "" + i;	
+
+[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/?tab=Description) 动态规划简单题，直接练手。
+
