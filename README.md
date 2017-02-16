@@ -60,3 +60,4 @@ Learning the coding day by day
 
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/?tab=Description) 动态规划简单题，直接练手。
 
+[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/?tab=Solutions) 找出所有可能的正反括号组合，使用递归方法求解，由下而上的思路。
