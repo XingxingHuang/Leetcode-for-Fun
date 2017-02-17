@@ -71,3 +71,5 @@ python 里面也有快速排序字符串的程序
 
 > "".join(sorted(s))
 > list(s)
+
+[71. Simplify Path](https://leetcode.com/problems/simplify-path/) 将路径转化成绝对路径。注意考虑corner case 多测试。
