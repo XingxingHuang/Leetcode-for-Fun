@@ -73,3 +73,8 @@ python 里面也有快速排序字符串的程序
 > list(s)
 
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 将路径转化成绝对路径。注意考虑corner case 多测试。
+
+[3. Longest Substring Without Repeating Characters] (https://leetcode.com/problems/longest-substring-without-repeating-characters/?tab=Solutions)  找到字符串中最长子字符串的长度，非常好的string练习题。可以有的思想包括：
+> 二分法	
+> DP法	
+> 双指针法	
