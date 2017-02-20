@@ -78,3 +78,5 @@ python 里面也有快速排序字符串的程序
 > 二分法	
 > DP法	
 > 双指针法	
+
+[43. Multiply Strings] (https://leetcode.com/problems/multiply-strings/?tab=Solutions) 完成两个长整数字符串的相加。
