@@ -17,6 +17,8 @@ class Solution(object):
         out = ''
         for temp in s:
             # 注意第一个元素是空的情况
-            if out != '' or temp != 0:  
+            if not (out == '' and temp == 0):  
                 out += str(temp)
+        if out == '':
+            return "0"
         return out
