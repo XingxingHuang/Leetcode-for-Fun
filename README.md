@@ -80,3 +80,5 @@ python 里面也有快速排序字符串的程序
 > 双指针法	
 
 [43. Multiply Strings] (https://leetcode.com/problems/multiply-strings/?tab=Solutions) 完成两个长整数字符串的相加。
+
+[91. Decode Ways](https://leetcode.com/problems/decode-ways/?tab=Solutions) 用动态规划解决，注意0 的情况。
