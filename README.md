@@ -82,3 +82,5 @@ python 里面也有快速排序字符串的程序
 [43. Multiply Strings] (https://leetcode.com/problems/multiply-strings/?tab=Solutions) 完成两个长整数字符串的相加。
 
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/?tab=Solutions) 用动态规划解决，注意0 的情况。
+
+[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/?tab=Solutions) 完成字符串中单词的翻转。不适用API的情况下可以用stack结构完成，也可以使用从后往前读取字符串的方式完成。还可以考虑**翻转整个字符串**的方式。
