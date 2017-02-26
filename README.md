@@ -84,3 +84,5 @@ python 里面也有快速排序字符串的程序
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/?tab=Solutions) 用动态规划解决，注意0 的情况。
 
 [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/?tab=Solutions) 完成字符串中单词的翻转。不适用API的情况下可以用stack结构完成，也可以使用从后往前读取字符串的方式完成。还可以考虑**翻转整个字符串**的方式。
+
+[214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/?tab=Solutions) 修改字符串达到最小回文字符串，暴力解法不难，但是需要注意边界情况。开始没有处理好完全没有回文字符串的情况。另外时间复杂度可以优化，通过[KMP方法](https://discuss.leetcode.com/topic/27261/clean-kmp-solution-with-super-detailed-explanation)。代码简洁度可以优化，例如用[递归的方法](https://discuss.leetcode.com/topic/21068/my-7-lines-recursive-java-solution)
