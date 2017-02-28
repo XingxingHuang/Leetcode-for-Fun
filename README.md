@@ -1,6 +1,7 @@
 # Code
 Learning the coding day by day
 
+
 [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/?tab=Description) 
   complexity of HashMap/HashSet ~ O(1)
   利用HashMap存储每个位置的连通的个数。在HashMap中，每次只需要连通数组两端的统计值，其余的值在循环中将不在用到，因此不需要更新。
@@ -88,3 +89,5 @@ python 里面也有快速排序字符串的程序
 [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/?tab=Solutions) 修改字符串达到最小回文字符串，暴力解法不难，但是需要注意边界情况。开始没有处理好完全没有回文字符串的情况。另外时间复杂度可以优化，通过[KMP方法](https://discuss.leetcode.com/topic/27261/clean-kmp-solution-with-super-detailed-explanation)。代码简洁度可以优化，例如用[递归的方法](https://discuss.leetcode.com/topic/21068/my-7-lines-recursive-java-solution)
 
 [503. Next Greater](https://leetcode.com/problems/next-greater-element-ii/?tab=Description) 维护一个最小栈结构，注意corner case的考虑。
+
+[451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/?tab=Solutions) 计数问题可以想到用HashMap来快速记录和读取每个元素出现的个数。用bucket sort的方法来对计数问题进行快速排序。
