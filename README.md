@@ -91,3 +91,5 @@ python 里面也有快速排序字符串的程序
 [503. Next Greater](https://leetcode.com/problems/next-greater-element-ii/?tab=Description) 维护一个最小栈结构，注意corner case的考虑。
 
 [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/?tab=Solutions) 计数问题可以想到用HashMap来快速记录和读取每个元素出现的个数。用bucket sort的方法来对计数问题进行快速排序。
+
+[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/?tab=Solutions) 用栈结构即可解决。注意处理运算次序问题。**每次写完程序请跑一下test case**
