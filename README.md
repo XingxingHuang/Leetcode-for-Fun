@@ -97,3 +97,7 @@ python 里面也有快速排序字符串的程序
 [373. Find K Pairs with Smallest Sums] (https://leetcode.com/problems/find-k-pairs-with-smallest-sums/?tab=Description) 注意一系列的TOP K 的问题，解法很类似。考虑哈希堆，最大/小堆。**熟练代码**
 
 [263. Ugly Number] (https://leetcode.com/problems/ugly-number/?tab=Description) 判断是否为ugly number, 注意考虑后续问题。
+
+[475. Heaters] (https://leetcode.com/problems/heaters/#/solutions) 应用二分查找法，或者直接暴力查找。很好的corner case 的练习
+
+[278. First Bad Version] (https://leetcode.com/problems/first-bad-version/#/solutions) 二分法的基础训练，注意位移操作优先级低于加减符号，高于大于小于号。二分法注意指标corner case
