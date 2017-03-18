@@ -103,3 +103,5 @@ python 里面也有快速排序字符串的程序
 [278. First Bad Version] (https://leetcode.com/problems/first-bad-version/#/solutions) 二分法的基础训练，注意位移操作优先级低于加减符号，高于大于小于号。二分法注意指标corner case
 
 [74. Search a 2D Matrix] (https://leetcode.com/problems/search-a-2d-matrix/#/description) 初级二分法题目。[二分法总结](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484110&idx=3&sn=c6403ffc79f278affcdf651e7ed8437e&chksm=9ae05746ad97de50a131c586272a6ab2a6dbb19186c0e92aa387c61d725db7d367e18df0614e&mpshare=1&scene=1&srcid=03149mRY4cn1dmyw7hDfpGeL&key=32ff7e6b073562f957522cfd39539c30bdab6c9beb05ffbb79eec8be5bf9b2b23a3cb866ef0467bef8684a002f1bb925b1fd4f0a810089352a9ca5cb4a5eb68f7d015d05b303378b3274313d8ab8a479&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=usXZy7VMRtnoFNo4bPHKthdhL%2FjUpdAOJ1iPEB8Q61r6cM3KmbHGv35B3YiNFjXS)
+
+[153. Find Minimum in Rotated Sorted Array] (https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description) 采用标准的二分法模板结题，好处是每次不用为边界的条件考虑太多，只是最终的代码行数会多一点点。
