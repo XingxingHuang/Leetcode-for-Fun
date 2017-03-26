@@ -107,3 +107,5 @@ python 里面也有快速排序字符串的程序
 [153. Find Minimum in Rotated Sorted Array] (https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description) 采用标准的二分法模板结题，好处是每次不用为边界的条件考虑太多，只是最终的代码行数会多一点点。
 
 [78. subsets](https://leetcode.com/problems/subsets/#/solutions) 回溯法 backtrack。该题需要练习
+
+[139. Word Break](https://leetcode.com/problems/word-break/#/description) 用DP方法分割字符。
