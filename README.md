@@ -113,5 +113,10 @@ python 里面也有快速排序字符串的程序
 [140. Word Break II](https://leetcode.com/problems/word-break-ii/#/description) 这一题需要重新审查，HARD难度 重新联系。DFS。见[每日一题](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484710&idx=1&sn=4cd1f71258d64e365eb632bcea368ed4&chksm=9ae050aead97d9b886acc87e7af313a863416a790a6948d5a64093d535856fdb36d05615b26c&mpshare=1&scene=1&srcid=0327QGTsI4ihK0ZdhKOdCiTP&key=056e2b9cbd625ceac4870f519af30a3b4626083f30946a8c65aa942ad24d933b1b2da1246d4cbffcab2dcd3d3215df0012f42f2ddf5f201c2b0f3478030c9207c08c37cb6b1403db8a4bb11e56681ede&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=4gxhVzKA%2FMbWwKr26bHjhhM19bLa1cgo%2Bf41rJB2OYlhuE2LC9F3uawL5YGsFRDj)
 
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description) 从 O(N^2) 到 O(N) 的进化。
+> 关于股票问题的相关总结 [见这里](https://sophiesongge.github.io/leetcode/2017/02/15/buy-sell-stock.html)
 
-[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description) 注意与实际股票的差异，实际是寻找波峰和波谷这样的最大最小子结构
+[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description) 注意与实际股票的差异，实际是寻找波峰和波谷这样的最大最小子结构.
+>动态规划: 初始状态→│决策１│→│决策２│→…→│决策ｎ│→结束状态	
+>贪心: 初始状态→│第一步最优解│→│第二步最优解│→…→│第n步最优解│→结束状态
+
+>很多问题都可以用动态规划和贪心两种方法来解决, 比如著名的背包问题(这是宝宝大学时期的一个大作业, 至今印象深刻)。 相对来讲, 一般情况下, 贪心算法占的空间会小一点, 但是, 贪心算法并不能保证最终得到的是全局最优解。
