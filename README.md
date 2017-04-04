@@ -126,3 +126,5 @@ python 里面也有快速排序字符串的程序
 [435. Non-overlapping Intervals] (https://leetcode.com/problems/non-overlapping-intervals/#/description) 问题的本质是查找overlap的数目，这时候需要考虑到底有多少中overlap的情况。主要想到先排序比较难。
 
 [452. Minimum Number of Arrows to Burst Balloons] (https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/#/description) 贪心算法的基本题型，注意考虑的是原始数据排序是递增和递减的情况
+
+[321. Create Maximum Number] (https://leetcode.com/problems/create-maximum-number/#/description)  hard难度，适合练习！！重新练习
