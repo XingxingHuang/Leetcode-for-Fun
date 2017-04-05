@@ -128,3 +128,5 @@ python 里面也有快速排序字符串的程序
 [452. Minimum Number of Arrows to Burst Balloons] (https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/#/description) 贪心算法的基本题型，注意考虑的是原始数据排序是递增和递减的情况
 
 [321. Create Maximum Number] (https://leetcode.com/problems/create-maximum-number/#/description)  hard难度，适合练习！！重新练习
+
+[179. Largest Number](https://leetcode.com/problems/largest-number/#/solutions) 思路的思考
