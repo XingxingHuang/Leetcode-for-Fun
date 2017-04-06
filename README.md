@@ -130,3 +130,7 @@ python 里面也有快速排序字符串的程序
 [321. Create Maximum Number] (https://leetcode.com/problems/create-maximum-number/#/description)  hard难度，适合练习！！重新练习
 
 [179. Largest Number](https://leetcode.com/problems/largest-number/#/solutions) 思路的思考
+
+[324. Wiggle Sort I] () O(n)算法，简单循环即可。
+
+[324. Wiggle Sort II] (https://leetcode.com/problems/wiggle-sort-ii/#/solutions) 快排+index mapping，重新读代码，难度略大。
