@@ -138,3 +138,6 @@ python 里面也有快速排序字符串的程序
 [102. Binary Tree Level Order Traversal I](https://leetcode.com/problems/binary-tree-level-order-traversal/#/solutions) DFS BFS 
 
 [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/#/description)  DFS BFS 必须练习题目. Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+> 这个题目很简单，是练习DFS BFS必备技能
+
+[542. 01 Matrix] (https://leetcode.com/problems/01-matrix/#/description) BFS DFS 的题目，想思路的时候需要一点点分析。实现的时候遇到新的细节问题。
