@@ -1,17 +1,17 @@
 /*
     @Author: Xingxing Huang
     @Date: 2017/03/27
-    @递归标准
+    @递归标准: http://www.lintcode.com/en/problem/subsets-ii/
 */
 class Solution {
     /**
      * @param S: A set of numbers.
      * @return: A list of lists. All valid subsets.
      */
-    public ArrayList<ArrayList<Integer>> subsets(int[] nums) {
+    public ArrayList<ArrayList<Integer>> subsetsWithDup(int[] nums) {
         // write your code here
         ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
-        if (nums == null || nums.length == 0) {
+        if (nums == null) {
             return res;
         }
         Arrays.sort(nums);
@@ -27,6 +27,9 @@ class Solution {
         ArrayList<Integer> list = new ArrayList<Integer>(subset);
         res.add(list);
         for (int i = idx; i < nums.length; i++) {
+            if (i != idx && i < nums.length && nums[i] == nums[i - 1]) {
+                continue;
+            }
             subset.add(nums[i]);
             helper(nums, res, subset, i + 1);
             subset.remove(subset.size() - 1);

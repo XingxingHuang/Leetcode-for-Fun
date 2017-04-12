@@ -1,7 +1,7 @@
 /*
     @Author: Xingxing Huang
     @Date: 2017/03/27
-    @递归标准
+    @递归标准: http://www.lintcode.com/en/problem/subsets/
 */
 class Solution {
     /**
