@@ -141,3 +141,5 @@ python 里面也有快速排序字符串的程序
 > 这个题目很简单，是练习DFS BFS必备技能
 
 [542. 01 Matrix] (https://leetcode.com/problems/01-matrix/#/description) BFS DFS 的题目，想思路的时候需要一点点分析。实现的时候遇到新的细节问题。
+
+[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/#/description) 检查树的对称性，简单题。用BFS的时候注意每次进和出两个node。
