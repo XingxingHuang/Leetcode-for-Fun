@@ -152,6 +152,18 @@ python 里面也有快速排序字符串的程序
 
 [515. Find Largest Value in Each Tree Row] (https://leetcode.com/problems/find-largest-value-in-each-tree-row/#/description) Tree, BFS 速度完成题目。
 
+[200. Number of Islands] (https://leetcode.com/problems/number-of-islands/#/solutions) matrix, BFS, DFS. 典型面试题，可以使用class的变量传递参数
+
+[344. Reverse String](https://leetcode.com/problems/reverse-string/#/description)
+[541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/#/description) 
+[557. Reverse String III](https://leetcode.com/contest/leetcode-weekly-contest-27/problems/reverse-words-in-a-string-iii/) 
+ 请注意查看344题目solution的[分析](https://discuss.leetcode.com/topic/43296/java-simple-and-clean-with-explanations-6-solutions)。注意字符串的操作方法。
+
+>s.length()  	
+char[] chars = s.toCharArray();		
+String.valueOf(chars);	
+
+
 /**
  * @Athor: Xingxing Huang
  * @Date: 2017.04.13
