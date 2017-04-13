@@ -143,3 +143,19 @@ python 里面也有快速排序字符串的程序
 [542. 01 Matrix] (https://leetcode.com/problems/01-matrix/#/description) BFS DFS 的题目，想思路的时候需要一点点分析。实现的时候遇到新的细节问题。
 
 [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/#/description) 检查树的对称性，简单题。用BFS的时候注意每次进和出两个node。
+
+[513.Find Bottom Left Tree Value] (https://leetcode.com/problems/find-bottom-left-tree-value/#/solutions) BFS  短小练习题，需要注意对队列操作细微变种。
+
+[543. Diameter of Binary Tree] (https://leetcode.com/problems/diameter-of-binary-tree/#/description) DFS recurrence，短小的练习题
+
+[538. Convert BST to Greater Tree] (https://leetcode.com/problems/convert-bst-to-greater-tree/#/description) Tree 的遍历，不难，注意corner case。如何增加class的变量来传递输出值。
+
+[515. Find Largest Value in Each Tree Row] (https://leetcode.com/problems/find-largest-value-in-each-tree-row/#/description) Tree, BFS 速度完成题目。
+
+/**
+ * @Athor: Xingxing Huang
+ * @Date: 2017.04.13
+ * @Time: O(n), 
+ */
+ 
+ 
