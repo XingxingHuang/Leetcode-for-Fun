@@ -163,11 +163,22 @@ python 里面也有快速排序字符串的程序
 char[] chars = s.toCharArray();		
 String.valueOf(chars);	
 
+[349. Intersection of Two Arrays] (https://leetcode.com/problems/intersection-of-two-arrays/#/solutions) 二分法，注意练习。
+[350. Intersection of Two Arrays II] (https://leetcode.com/problems/intersection-of-two-arrays-ii/#/solutions) 关于类似的排序和二分法问题，有fowllowing question 需要仔细考虑。
+
+[162. Find Peak Element] (https://leetcode.com/problems/find-peak-element/#/solutions) 经典二分法题目，简单，但是需要足够重视掌握。
+
+[303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/#/solutions) 简单DP题目
+
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/#/solutions) 简单DP题目
 
 /**
- * @Athor: Xingxing Huang
- * @Date: 2017.04.13
- * @Time: O(n), 
+ * 
+ * @athor  Xingxing Huang
+ * @since  2017.04.14
+ * @Time   O(n), 
+ * @param
+ * @return 
  */
  
  
