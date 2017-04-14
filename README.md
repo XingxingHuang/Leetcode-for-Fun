@@ -108,21 +108,6 @@ python 里面也有快速排序字符串的程序
 
 [78. subsets](https://leetcode.com/problems/subsets/#/solutions) 回溯法 backtrack。该题需要练习
 
-[139. Word Break](https://leetcode.com/problems/word-break/#/description) 用DP方法分割字符。
-
-[140. Word Break II](https://leetcode.com/problems/word-break-ii/#/description) 这一题需要重新审查，HARD难度 重新联系。DFS。见[每日一题](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484710&idx=1&sn=4cd1f71258d64e365eb632bcea368ed4&chksm=9ae050aead97d9b886acc87e7af313a863416a790a6948d5a64093d535856fdb36d05615b26c&mpshare=1&scene=1&srcid=0327QGTsI4ihK0ZdhKOdCiTP&key=056e2b9cbd625ceac4870f519af30a3b4626083f30946a8c65aa942ad24d933b1b2da1246d4cbffcab2dcd3d3215df0012f42f2ddf5f201c2b0f3478030c9207c08c37cb6b1403db8a4bb11e56681ede&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=4gxhVzKA%2FMbWwKr26bHjhhM19bLa1cgo%2Bf41rJB2OYlhuE2LC9F3uawL5YGsFRDj)
-
-[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description) 从 O(N^2) 到 O(N) 的进化。
-> 关于股票问题的相关总结 [见这里](https://sophiesongge.github.io/leetcode/2017/02/15/buy-sell-stock.html)
-
-[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description) 注意与实际股票的差异，实际是寻找波峰和波谷这样的最大最小子结构.
->动态规划: 初始状态→│决策１│→│决策２│→…→│决策ｎ│→结束状态	
->贪心: 初始状态→│第一步最优解│→│第二步最优解│→…→│第n步最优解│→结束状态
-
->很多问题都可以用动态规划和贪心两种方法来解决, 比如著名的背包问题(这是宝宝大学时期的一个大作业, 至今印象深刻)。 相对来讲, 一般情况下, 贪心算法占的空间会小一点, 但是, 贪心算法并不能保证最终得到的是全局最优解。
->
-> 每个问题拿到的时候请先用数学形式描述出来，这时候基本上暴力解法就差不多了。
-
 [435. Non-overlapping Intervals] (https://leetcode.com/problems/non-overlapping-intervals/#/description) 问题的本质是查找overlap的数目，这时候需要考虑到底有多少中overlap的情况。主要想到先排序比较难。
 
 [452. Minimum Number of Arrows to Burst Balloons] (https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/#/description) 贪心算法的基本题型，注意考虑的是原始数据排序是递增和递减的情况
@@ -172,13 +157,37 @@ String.valueOf(chars);
 
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/#/solutions) 简单DP题目
 
+[198. House Robber] (https://leetcode.com/problems/house-robber/#/description) 练习DP动态规划的好题, 简单。
+
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description) 从 O(N^2) 到 O(N) 的进化。
+> 关于股票问题的相关总结 [见这里](https://sophiesongge.github.io/leetcode/2017/02/15/buy-sell-stock.html)
+
+[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description) 注意与实际股票的差异，实际是寻找波峰和波谷这样的最大最小子结构.
+
+[123. Best Time to Buy and Sell Stock III] (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/#/description) Hard的DP题目
+
+>动态规划: 初始状态→│决策１│→│决策２│→…→│决策ｎ│→结束状态	
+>贪心: 初始状态→│第一步最优解│→│第二步最优解│→…→│第n步最优解│→结束状态
+
+>很多问题都可以用动态规划和贪心两种方法来解决, 比如著名的背包问题(这是宝宝大学时期的一个大作业, 至今印象深刻)。 相对来讲, 一般情况下, 贪心算法占的空间会小一点, 但是, 贪心算法并不能保证最终得到的是全局最优解。
+>
+> 每个问题拿到的时候请先用数学形式描述出来，这时候基本上暴力解法就差不多了。
+
+[139. Word Break](https://leetcode.com/problems/word-break/#/description) 用DP方法分割字符。
+
+[140. Word Break II](https://leetcode.com/problems/word-break-ii/#/description) DP问题， 这一题需要重新审查，HARD难度 重新联系。DFS。见[每日一题](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484710&idx=1&sn=4cd1f71258d64e365eb632bcea368ed4&chksm=9ae050aead97d9b886acc87e7af313a863416a790a6948d5a64093d535856fdb36d05615b26c&mpshare=1&scene=1&srcid=0327QGTsI4ihK0ZdhKOdCiTP&key=056e2b9cbd625ceac4870f519af30a3b4626083f30946a8c65aa942ad24d933b1b2da1246d4cbffcab2dcd3d3215df0012f42f2ddf5f201c2b0f3478030c9207c08c37cb6b1403db8a4bb11e56681ede&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=4gxhVzKA%2FMbWwKr26bHjhhM19bLa1cgo%2Bf41rJB2OYlhuE2LC9F3uawL5YGsFRDj)
+
+[70. climbing stairs] (https://leetcode.com/problems/climbing-stairs/#/description) DP Fibonacci
+
+[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/#/description) DP, 
+
 /**
  * 
- * @athor  Xingxing Huang
- * @since  2017.04.14
- * @Time   O(n), 
- * @param
- * @return 
+ * @athor   Xingxing Huang	
+ * @since   2017.04.14	
+ * @Time    O(n), 	
+ * @param   
+ * @return  
  */
  
  
