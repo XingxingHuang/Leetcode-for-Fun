@@ -181,6 +181,9 @@ String.valueOf(chars);
 
 [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/#/description) DP, 
 
+[304. Range Sum Query 2D] (https://leetcode.com/problems/range-sum-query-2d-immutable/#/solutions) DP
+
+[257. Binary Tree Path] (https://leetcode.com/problems/binary-tree-paths/#/solutions) BFS DFS, corner case 得小心
 /**
  * 
  * @athor   Xingxing Huang	
