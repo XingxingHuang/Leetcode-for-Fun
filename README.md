@@ -184,10 +184,13 @@ String.valueOf(chars);
 [304. Range Sum Query 2D] (https://leetcode.com/problems/range-sum-query-2d-immutable/#/solutions) DP
 
 [257. Binary Tree Path] (https://leetcode.com/problems/binary-tree-paths/#/solutions) BFS DFS, corner case 得小心
+
+[523. Continuous Subarray Sum] (https://leetcode.com/problems/continuous-subarray-sum/#/solutions) DP解法跟暴力解法一样，需要用到一点点数学技巧。注意0的cornercase。
+
 /**
  * 
  * @athor   Xingxing Huang	
- * @since   2017.04.14	
+ * @since   2017.04.16	
  * @Time    O(n), 	
  * @param   
  * @return  
