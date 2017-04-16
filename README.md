@@ -187,6 +187,9 @@ String.valueOf(chars);
 
 [523. Continuous Subarray Sum] (https://leetcode.com/problems/continuous-subarray-sum/#/solutions) DP解法跟暴力解法一样，需要用到一点点数学技巧。注意0的cornercase。
 
+[486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/#/description) 双人从数组里面以此取数，属于博弈问题。DP 矩阵的算法值得参考
+
+
 /**
  * 
  * @athor   Xingxing Huang	
