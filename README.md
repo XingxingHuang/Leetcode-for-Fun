@@ -187,13 +187,20 @@ String.valueOf(chars);
 
 [523. Continuous Subarray Sum] (https://leetcode.com/problems/continuous-subarray-sum/#/solutions) DP解法跟暴力解法一样，需要用到一点点数学技巧。注意0的cornercase。
 
-[486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/#/description) 双人从数组里面以此取数，属于博弈问题。DP 矩阵的算法值得参考
+[486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/#/description) 双人从数组里面以此取数，属于博弈问题。DP 矩阵的算法值得参考。请查看solution中的思路讲解。
+[474. Ones and Zeroes] (https://leetcode.com/problems/ones-and-zeroes/#/description) 
+
+[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 判断是否为二叉搜索树。
+> 相关问题	
+> [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/#/description)		
+> [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description)		
+> [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/#/description)
 
 
 /**
  * 
- * @athor   Xingxing Huang	
- * @since   2017.04.16	
+ * @author  Xingxing Huang	
+ * @since   2017.04.17
  * @Time    O(n), 	
  * @param   
  * @return  
