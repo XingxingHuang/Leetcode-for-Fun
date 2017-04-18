@@ -196,11 +196,20 @@ String.valueOf(chars);
 > [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description)		
 > [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/#/description)
 
+[1. Two Sum] (https://leetcode.com/problems/two-sum/#/description) [167. Two Sum II] (https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)  重新做！！！！！有多重方法	
+[170. Two Sum III] (https://discuss.leetcode.com/category/178/two-sum-iii-data-structure-design) [博客园](http://www.cnblogs.com/grandyang/p/5184143.html)
+[15. Three Sum](https://leetcode.com/problems/3sum/#/description)	
+[18. Four SUm](https://leetcode.com/problems/4sum/#/description)
+
+[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/#/solutions)	Tree, 分治。练习必备
+
+> 题目可以运用到多重数据结构。包括hashmap，二分法，双指针。特别是在two sum II中可以用多重方法求解。leetcode 必练题目
+
 
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.04.17
+ * @since   2017.04.18
  * @Time    O(n), 	
  * @param   
  * @return  
