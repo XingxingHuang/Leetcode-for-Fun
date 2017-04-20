@@ -205,11 +205,13 @@ String.valueOf(chars);
 
 > 题目可以运用到多重数据结构。包括hashmap，二分法，双指针。特别是在two sum II中可以用多重方法求解。leetcode 必练题目
 
+[547. Friend Circles] (https://leetcode.com/problems/friend-circles/#/description) union find 题目 练手必备
+[261. Graph Valid Tree] (https://discuss.leetcode.com/category/330/graph-valid-tree) union find 练习。如果是树的话，所有的节点必须是连接的，也就是说必须是连通图，而且不能有环，所以我们的焦点就变成了验证是否是连通图和是否含有环。[九章](http://www.jiuzhang.com/solutions/graph-valid-tree/)
 
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.04.18
+ * @since   2017.04.20
  * @Time    O(n), 	
  * @param   
  * @return  
