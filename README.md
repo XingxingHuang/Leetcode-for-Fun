@@ -208,6 +208,7 @@ String.valueOf(chars);
 [547. Friend Circles] (https://leetcode.com/problems/friend-circles/#/description) union find 题目 练手必备
 [261. Graph Valid Tree] (https://discuss.leetcode.com/category/330/graph-valid-tree) union find 练习。如果是树的话，所有的节点必须是连接的，也就是说必须是连通图，而且不能有环，所以我们的焦点就变成了验证是否是连通图和是否含有环。[九章](http://www.jiuzhang.com/solutions/graph-valid-tree/)
 
+[332. Reconstruct Itinerary] (https://leetcode.com/problems/reconstruct-itinerary/#/solutions) 图, dfs。
 /**
  * 
  * @author  Xingxing Huang	
