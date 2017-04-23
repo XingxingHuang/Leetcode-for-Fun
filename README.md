@@ -209,10 +209,17 @@ String.valueOf(chars);
 [261. Graph Valid Tree] (https://discuss.leetcode.com/category/330/graph-valid-tree) union find 练习。如果是树的话，所有的节点必须是连接的，也就是说必须是连通图，而且不能有环，所以我们的焦点就变成了验证是否是连通图和是否含有环。[九章](http://www.jiuzhang.com/solutions/graph-valid-tree/)
 
 [332. Reconstruct Itinerary] (https://leetcode.com/problems/reconstruct-itinerary/#/solutions) 图, dfs。
+
+[300. The Maze](http://www.cnblogs.com/grandyang/p/6381458.html)
+
+[108.Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/#/solutions) 简单题，递归求解，必须非常熟练。
+
+[494. Target Sum](https://leetcode.com/problems/target-sum/#/description) DP。中等难度典型题。
+
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.04.20
+ * @since   2017.04.23
  * @Time    O(n), 	
  * @param   
  * @return  
