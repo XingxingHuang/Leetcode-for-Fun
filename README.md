@@ -214,7 +214,11 @@ String.valueOf(chars);
 
 [108.Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/#/solutions) 简单题，递归求解，必须非常熟练。
 
-[494. Target Sum](https://leetcode.com/problems/target-sum/#/description) DP。中等难度典型题。
+[120. Triangle](https://leetcode.com/problems/triangle/#/description) 典型DP问题
+
+[494. Target Sum](https://leetcode.com/problems/target-sum/#/description) DP。中等难度典型题。可以改写成subset sum 的问题
+
+[416. Partition Equal Subset Sum] (https://leetcode.com/problems/partition-equal-subset-sum/#/solutions) subset sum. 转化成[01背包问题](http://love-oriented.com/pack/P01.html)。如何从二维数组优化成1维数组
 
 /**
  * 
