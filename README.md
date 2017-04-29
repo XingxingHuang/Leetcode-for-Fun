@@ -220,10 +220,20 @@ String.valueOf(chars);
 
 [416. Partition Equal Subset Sum] (https://leetcode.com/problems/partition-equal-subset-sum/#/solutions) subset sum. 转化成[01背包问题](http://love-oriented.com/pack/P01.html)。如何从二维数组优化成1维数组
 
+[338. Counting Bits] (https://leetcode.com/problems/counting-bits/#/description) DP, 注意位运算符号的优先级
+
+[516. Longest Palindromic Subsequence] (https://leetcode.com/problems/longest-palindromic-subsequence/#/description) DP, 求最长回文子序列。
+>> 必练题目		
+>> 查看solution中从暴力到动态规划的[详细解释](https://leetcode.com/problems/longest-palindromic-subsequence/#/solutions)
+
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/#/description) DP, 求最长回文字符串。接上题。
+>> 必练题目
+>> 
+
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.04.23
+ * @since   2017.04.29
  * @Time    O(n), 	
  * @param   
  * @return  
