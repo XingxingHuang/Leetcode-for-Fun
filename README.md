@@ -210,7 +210,7 @@ String.valueOf(chars);
 
 [332. Reconstruct Itinerary] (https://leetcode.com/problems/reconstruct-itinerary/#/solutions) 图, dfs。
 
-[300. The Maze](http://www.cnblogs.com/grandyang/p/6381458.html)
+[490. The Maze](http://www.cnblogs.com/grandyang/p/6381458.html)
 
 [108.Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/#/solutions) 简单题，递归求解，必须非常熟练。
 
@@ -230,10 +230,12 @@ String.valueOf(chars);
 >> 必练题目
 >> 
 
+[lintcode 77. Longest Common Subsequence](https://www.lintcode.com/en/problem/longest-common-subsequence/) 经典DP题目，可以查看网易的MIT[公开课视频](http://open.163.com/movie/2010/12/L/4/M6UTT5U0I_M6V2U1HL4.html)讲解。
+
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.04.29
+ * @since   2017.05.01
  * @Time    O(n), 	
  * @param   
  * @return  
