@@ -232,6 +232,12 @@ String.valueOf(chars);
 
 [lintcode 77. Longest Common Subsequence](https://www.lintcode.com/en/problem/longest-common-subsequence/) 经典DP题目，可以查看网易的MIT[公开课视频](http://open.163.com/movie/2010/12/L/4/M6UTT5U0I_M6V2U1HL4.html)讲解。
 
+[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/#/description) 分治，注意数组的corner case
+
+[312. Burst Balloons] (https://leetcode.com/problems/burst-balloons/#/description) 分治，动态规划。难点在于如何划分出子问题。
+
+[241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/#/description) 分治，字符串的处理
+
 /**
  * 
  * @author  Xingxing Huang	
