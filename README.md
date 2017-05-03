@@ -235,8 +235,8 @@ String.valueOf(chars);
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.05.01
- * @Time    O(n), 	
+ * @since   2017.05.03
+ * @Time    O(n) 	
  * @param   
  * @return  
  */
