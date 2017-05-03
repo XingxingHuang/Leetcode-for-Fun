@@ -31,17 +31,17 @@ Learning the coding day by day
 [125. Valid Palindrome
 ](https://leetcode.com/problems/valid-palindrome/?tab=Solutions) 简单题，判断回文字符串。使用字符数字判断函数Character.isLetterOrDigit()。还有一个[简洁解法](125_easySolution.java)，不过调用了库函数。
 
-[9. Palindrome Number] (https://leetcode.com/problems/palindrome-number/?tab=Solutions) 回文数字的判断，注意情况的判断，有一定的tricky。
+[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/?tab=Solutions) 回文数字的判断，注意情况的判断，有一定的tricky。
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/?tab=Solutions) 在O(n)的时间复杂度下判断链表的回文情况，这里用到了快慢指针，注意考虑指针的数目和指针的多少。运用到了链表的reverse。
 
-[25. Reverse Nodes in k-Group] (https://leetcode.com/problems/reverse-nodes-in-k-group/?tab=Solutions) 递归的指针操作。思想不难，体会到了递归的困难之处。用递归结题时请考虑好每次递归的初始条件输出条件。其实一般程序都应如此。
+[25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?tab=Solutions) 递归的指针操作。思想不难，体会到了递归的困难之处。用递归结题时请考虑好每次递归的初始条件输出条件。其实一般程序都应如此。
 
-[400. Nth Digit] (https://leetcode.com/problems/nth-digit/?tab=Description) 思想不难，算准很难。还有溢出问题需要考虑。
+[400. Nth Digit](https://leetcode.com/problems/nth-digit/?tab=Description) 思想不难，算准很难。还有溢出问题需要考虑。
 
-[221. Maximal Square] (https://leetcode.com/problems/maximal-square/?tab=Solutions) 动态规划练手，注意矩阵大小的初始化。
+[221. Maximal Square](https://leetcode.com/problems/maximal-square/?tab=Solutions) 动态规划练手，注意矩阵大小的初始化。
 
-[112. Path Sum] (https://leetcode.com/problems/path-sum/?tab=Solutions) 二叉树，递归求解即可
+[112. Path Sum](https://leetcode.com/problems/path-sum/?tab=Solutions) 二叉树，递归求解即可
 
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/?tab=Solutions) 二叉树，递归求解训练好题 
 
@@ -75,12 +75,12 @@ python 里面也有快速排序字符串的程序
 
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 将路径转化成绝对路径。注意考虑corner case 多测试。
 
-[3. Longest Substring Without Repeating Characters] (https://leetcode.com/problems/longest-substring-without-repeating-characters/?tab=Solutions)  找到字符串中最长子字符串的长度，非常好的string练习题。可以有的思想包括：
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/?tab=Solutions) 找到字符串中最长子字符串的长度，非常好的string练习题。可以有的思想包括：
 > 二分法	
 > DP法	
 > 双指针法	
 
-[43. Multiply Strings] (https://leetcode.com/problems/multiply-strings/?tab=Solutions) 完成两个长整数字符串的相加。
+[43. Multiply Strings](https://leetcode.com/problems/multiply-strings/?tab=Solutions) 完成两个长整数字符串的相加。
 
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/?tab=Solutions) 用动态规划解决，注意0 的情况。
 
@@ -94,50 +94,50 @@ python 里面也有快速排序字符串的程序
 
 [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/?tab=Solutions) 用栈结构即可解决。注意处理运算次序问题。**每次写完程序请跑一下test case**
 
-[373. Find K Pairs with Smallest Sums] (https://leetcode.com/problems/find-k-pairs-with-smallest-sums/?tab=Description) 注意一系列的TOP K 的问题，解法很类似。考虑哈希堆，最大/小堆。**熟练代码**
+[373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/?tab=Description) 注意一系列的TOP K 的问题，解法很类似。考虑哈希堆，最大/小堆。**熟练代码**
 
-[263. Ugly Number] (https://leetcode.com/problems/ugly-number/?tab=Description) 判断是否为ugly number, 注意考虑后续问题。
+[263. Ugly Number](https://leetcode.com/problems/ugly-number/?tab=Description) 判断是否为ugly number, 注意考虑后续问题。
 
-[475. Heaters] (https://leetcode.com/problems/heaters/#/solutions) 应用二分查找法，或者直接暴力查找。很好的corner case 的练习
+[475. Heaters](https://leetcode.com/problems/heaters/#/solutions) 应用二分查找法，或者直接暴力查找。很好的corner case 的练习
 
-[278. First Bad Version] (https://leetcode.com/problems/first-bad-version/#/solutions) 二分法的基础训练，注意位移操作优先级低于加减符号，高于大于小于号。二分法注意指标corner case
+[278. First Bad Version](https://leetcode.com/problems/first-bad-version/#/solutions) 二分法的基础训练，注意位移操作优先级低于加减符号，高于大于小于号。二分法注意指标corner case
 
-[74. Search a 2D Matrix] (https://leetcode.com/problems/search-a-2d-matrix/#/description) 初级二分法题目。[二分法总结](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484110&idx=3&sn=c6403ffc79f278affcdf651e7ed8437e&chksm=9ae05746ad97de50a131c586272a6ab2a6dbb19186c0e92aa387c61d725db7d367e18df0614e&mpshare=1&scene=1&srcid=03149mRY4cn1dmyw7hDfpGeL&key=32ff7e6b073562f957522cfd39539c30bdab6c9beb05ffbb79eec8be5bf9b2b23a3cb866ef0467bef8684a002f1bb925b1fd4f0a810089352a9ca5cb4a5eb68f7d015d05b303378b3274313d8ab8a479&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=usXZy7VMRtnoFNo4bPHKthdhL%2FjUpdAOJ1iPEB8Q61r6cM3KmbHGv35B3YiNFjXS)
+[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/#/description) 初级二分法题目。[二分法总结](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484110&idx=3&sn=c6403ffc79f278affcdf651e7ed8437e&chksm=9ae05746ad97de50a131c586272a6ab2a6dbb19186c0e92aa387c61d725db7d367e18df0614e&mpshare=1&scene=1&srcid=03149mRY4cn1dmyw7hDfpGeL&key=32ff7e6b073562f957522cfd39539c30bdab6c9beb05ffbb79eec8be5bf9b2b23a3cb866ef0467bef8684a002f1bb925b1fd4f0a810089352a9ca5cb4a5eb68f7d015d05b303378b3274313d8ab8a479&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=usXZy7VMRtnoFNo4bPHKthdhL%2FjUpdAOJ1iPEB8Q61r6cM3KmbHGv35B3YiNFjXS)
 
-[153. Find Minimum in Rotated Sorted Array] (https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description) 采用标准的二分法模板结题，好处是每次不用为边界的条件考虑太多，只是最终的代码行数会多一点点。
+[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description) 采用标准的二分法模板结题，好处是每次不用为边界的条件考虑太多，只是最终的代码行数会多一点点。
 
 [78. subsets](https://leetcode.com/problems/subsets/#/solutions) 回溯法 backtrack。该题需要练习
 
-[435. Non-overlapping Intervals] (https://leetcode.com/problems/non-overlapping-intervals/#/description) 问题的本质是查找overlap的数目，这时候需要考虑到底有多少中overlap的情况。主要想到先排序比较难。
+[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/#/description) 问题的本质是查找overlap的数目，这时候需要考虑到底有多少中overlap的情况。主要想到先排序比较难。
 
-[452. Minimum Number of Arrows to Burst Balloons] (https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/#/description) 贪心算法的基本题型，注意考虑的是原始数据排序是递增和递减的情况
+[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/#/description) 贪心算法的基本题型，注意考虑的是原始数据排序是递增和递减的情况
 
-[321. Create Maximum Number] (https://leetcode.com/problems/create-maximum-number/#/description)  hard难度，适合练习！！重新练习
+[321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/#/description)  hard难度，适合练习！！重新练习
 
 [179. Largest Number](https://leetcode.com/problems/largest-number/#/solutions) 思路的思考
 
-[324. Wiggle Sort I] () O(n)算法，简单循环即可。
+[324. Wiggle Sort I]() O(n)算法，简单循环即可。
 
-[324. Wiggle Sort II] (https://leetcode.com/problems/wiggle-sort-ii/#/solutions) 快排+index mapping，重新读代码，难度略大。
+[324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/#/solutions) 快排+index mapping，重新读代码，难度略大。
 
 [102. Binary Tree Level Order Traversal I](https://leetcode.com/problems/binary-tree-level-order-traversal/#/solutions) DFS BFS 
 
 [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/#/description)  DFS BFS 必须练习题目. Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 > 这个题目很简单，是练习DFS BFS必备技能
 
-[542. 01 Matrix] (https://leetcode.com/problems/01-matrix/#/description) BFS DFS 的题目，想思路的时候需要一点点分析。实现的时候遇到新的细节问题。
+[542. 01 Matrix](https://leetcode.com/problems/01-matrix/#/description) BFS DFS 的题目，想思路的时候需要一点点分析。实现的时候遇到新的细节问题。
 
 [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/#/description) 检查树的对称性，简单题。用BFS的时候注意每次进和出两个node。
 
-[513.Find Bottom Left Tree Value] (https://leetcode.com/problems/find-bottom-left-tree-value/#/solutions) BFS  短小练习题，需要注意对队列操作细微变种。
+[513.Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/#/solutions) BFS  短小练习题，需要注意对队列操作细微变种。
 
-[543. Diameter of Binary Tree] (https://leetcode.com/problems/diameter-of-binary-tree/#/description) DFS recurrence，短小的练习题
+[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/#/description) DFS recurrence，短小的练习题
 
-[538. Convert BST to Greater Tree] (https://leetcode.com/problems/convert-bst-to-greater-tree/#/description) Tree 的遍历，不难，注意corner case。如何增加class的变量来传递输出值。
+[538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/#/description) Tree 的遍历，不难，注意corner case。如何增加class的变量来传递输出值。
 
-[515. Find Largest Value in Each Tree Row] (https://leetcode.com/problems/find-largest-value-in-each-tree-row/#/description) Tree, BFS 速度完成题目。
+[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/#/description) Tree, BFS 速度完成题目。
 
-[200. Number of Islands] (https://leetcode.com/problems/number-of-islands/#/solutions) matrix, BFS, DFS. 典型面试题，可以使用class的变量传递参数
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/#/solutions) matrix, BFS, DFS. 典型面试题，可以使用class的变量传递参数
 
 [344. Reverse String](https://leetcode.com/problems/reverse-string/#/description)
 [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/#/description) 
@@ -148,23 +148,23 @@ python 里面也有快速排序字符串的程序
 char[] chars = s.toCharArray();		
 String.valueOf(chars);	
 
-[349. Intersection of Two Arrays] (https://leetcode.com/problems/intersection-of-two-arrays/#/solutions) 二分法，注意练习。
-[350. Intersection of Two Arrays II] (https://leetcode.com/problems/intersection-of-two-arrays-ii/#/solutions) 关于类似的排序和二分法问题，有fowllowing question 需要仔细考虑。
+[349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/#/solutions) 二分法，注意练习。	
+[350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/#/solutions) 关于类似的排序和二分法问题，有fowllowing question 需要仔细考虑。
 
-[162. Find Peak Element] (https://leetcode.com/problems/find-peak-element/#/solutions) 经典二分法题目，简单，但是需要足够重视掌握。
+[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/#/solutions) 经典二分法题目，简单，但是需要足够重视掌握。
 
 [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/#/solutions) 简单DP题目
 
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/#/solutions) 简单DP题目
 
-[198. House Robber] (https://leetcode.com/problems/house-robber/#/description) 练习DP动态规划的好题, 简单。
+[198. House Robber](https://leetcode.com/problems/house-robber/#/description) 练习DP动态规划的好题, 简单。
 
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description) 从 O(N^2) 到 O(N) 的进化。
 > 关于股票问题的相关总结 [见这里](https://sophiesongge.github.io/leetcode/2017/02/15/buy-sell-stock.html)
 
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description) 注意与实际股票的差异，实际是寻找波峰和波谷这样的最大最小子结构.
 
-[123. Best Time to Buy and Sell Stock III] (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/#/description) Hard的DP题目
+[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/#/description) Hard的DP题目
 
 >动态规划: 初始状态→│决策１│→│决策２│→…→│决策ｎ│→结束状态	
 >贪心: 初始状态→│第一步最优解│→│第二步最优解│→…→│第n步最优解│→结束状态
@@ -177,18 +177,18 @@ String.valueOf(chars);
 
 [140. Word Break II](https://leetcode.com/problems/word-break-ii/#/description) DP问题， 这一题需要重新审查，HARD难度 重新联系。DFS。见[每日一题](https://mp.weixin.qq.com/s?__biz=MzAwMDk1MTUyNw==&mid=2247484710&idx=1&sn=4cd1f71258d64e365eb632bcea368ed4&chksm=9ae050aead97d9b886acc87e7af313a863416a790a6948d5a64093d535856fdb36d05615b26c&mpshare=1&scene=1&srcid=0327QGTsI4ihK0ZdhKOdCiTP&key=056e2b9cbd625ceac4870f519af30a3b4626083f30946a8c65aa942ad24d933b1b2da1246d4cbffcab2dcd3d3215df0012f42f2ddf5f201c2b0f3478030c9207c08c37cb6b1403db8a4bb11e56681ede&ascene=0&uin=NzIzOTQyODAx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.9.5+build(13F1911)&version=11020201&pass_ticket=4gxhVzKA%2FMbWwKr26bHjhhM19bLa1cgo%2Bf41rJB2OYlhuE2LC9F3uawL5YGsFRDj)
 
-[70. climbing stairs] (https://leetcode.com/problems/climbing-stairs/#/description) DP Fibonacci
+[70. climbing stairs](https://leetcode.com/problems/climbing-stairs/#/description) DP Fibonacci
 
 [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/#/description) DP, 
 
-[304. Range Sum Query 2D] (https://leetcode.com/problems/range-sum-query-2d-immutable/#/solutions) DP
+[304. Range Sum Query 2D](https://leetcode.com/problems/range-sum-query-2d-immutable/#/solutions) DP
 
-[257. Binary Tree Path] (https://leetcode.com/problems/binary-tree-paths/#/solutions) BFS DFS, corner case 得小心
+[257. Binary Tree Path](https://leetcode.com/problems/binary-tree-paths/#/solutions) BFS DFS, corner case 得小心
 
-[523. Continuous Subarray Sum] (https://leetcode.com/problems/continuous-subarray-sum/#/solutions) DP解法跟暴力解法一样，需要用到一点点数学技巧。注意0的cornercase。
+[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/#/solutions) DP解法跟暴力解法一样，需要用到一点点数学技巧。注意0的cornercase。
 
 [486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/#/description) 双人从数组里面以此取数，属于博弈问题。DP 矩阵的算法值得参考。请查看solution中的思路讲解。
-[474. Ones and Zeroes] (https://leetcode.com/problems/ones-and-zeroes/#/description) 
+[474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/#/description) 
 
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 判断是否为二叉搜索树。
 > 相关问题	
@@ -196,8 +196,11 @@ String.valueOf(chars);
 > [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description)		
 > [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/#/description)
 
-[1. Two Sum] (https://leetcode.com/problems/two-sum/#/description) [167. Two Sum II] (https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)  重新做！！！！！有多重方法	
-[170. Two Sum III] (https://discuss.leetcode.com/category/178/two-sum-iii-data-structure-design) [博客园](http://www.cnblogs.com/grandyang/p/5184143.html)
+[1. Two Sum](https://leetcode.com/problems/two-sum/#/description) 
+
+[167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)  重新做！！！！！有多重方法	
+[170. Two Sum III](https://discuss.leetcode.com/category/178/two-sum-iii-data-structure-design) [博客园](http://www.cnblogs.com/grandyang/p/5184143.html)
+
 [15. Three Sum](https://leetcode.com/problems/3sum/#/description)	
 [18. Four SUm](https://leetcode.com/problems/4sum/#/description)
 
@@ -205,10 +208,10 @@ String.valueOf(chars);
 
 > 题目可以运用到多重数据结构。包括hashmap，二分法，双指针。特别是在two sum II中可以用多重方法求解。leetcode 必练题目
 
-[547. Friend Circles] (https://leetcode.com/problems/friend-circles/#/description) union find 题目 练手必备
-[261. Graph Valid Tree] (https://discuss.leetcode.com/category/330/graph-valid-tree) union find 练习。如果是树的话，所有的节点必须是连接的，也就是说必须是连通图，而且不能有环，所以我们的焦点就变成了验证是否是连通图和是否含有环。[九章](http://www.jiuzhang.com/solutions/graph-valid-tree/)
+[547. Friend Circles](https://leetcode.com/problems/friend-circles/#/description) union find 题目 练手必备
+[261. Graph Valid Tree](https://discuss.leetcode.com/category/330/graph-valid-tree) union find 练习。如果是树的话，所有的节点必须是连接的，也就是说必须是连通图，而且不能有环，所以我们的焦点就变成了验证是否是连通图和是否含有环。[九章](http://www.jiuzhang.com/solutions/graph-valid-tree/)
 
-[332. Reconstruct Itinerary] (https://leetcode.com/problems/reconstruct-itinerary/#/solutions) 图, dfs。
+[332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/#/solutions) 图, dfs。
 
 [490. The Maze](http://www.cnblogs.com/grandyang/p/6381458.html)
 
@@ -218,11 +221,11 @@ String.valueOf(chars);
 
 [494. Target Sum](https://leetcode.com/problems/target-sum/#/description) DP。中等难度典型题。可以改写成subset sum 的问题
 
-[416. Partition Equal Subset Sum] (https://leetcode.com/problems/partition-equal-subset-sum/#/solutions) subset sum. 转化成[01背包问题](http://love-oriented.com/pack/P01.html)。如何从二维数组优化成1维数组
+[416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/#/solutions) subset sum. 转化成[01背包问题](http://love-oriented.com/pack/P01.html)。如何从二维数组优化成1维数组
 
-[338. Counting Bits] (https://leetcode.com/problems/counting-bits/#/description) DP, 注意位运算符号的优先级
+[338. Counting Bits](https://leetcode.com/problems/counting-bits/#/description) DP, 注意位运算符号的优先级
 
-[516. Longest Palindromic Subsequence] (https://leetcode.com/problems/longest-palindromic-subsequence/#/description) DP, 求最长回文子序列。
+[516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/#/description) DP, 求最长回文子序列。
 >> 必练题目		
 >> 查看solution中从暴力到动态规划的[详细解释](https://leetcode.com/problems/longest-palindromic-subsequence/#/solutions)
 
@@ -234,7 +237,7 @@ String.valueOf(chars);
 
 [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/#/description) 分治，注意数组的corner case
 
-[312. Burst Balloons] (https://leetcode.com/problems/burst-balloons/#/description) 分治，动态规划。难点在于如何划分出子问题。
+[312. Burst Balloons](https://leetcode.com/problems/burst-balloons/#/description) 分治，动态规划。难点在于如何划分出子问题。
 
 [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/#/description) 分治，字符串的处理
 
