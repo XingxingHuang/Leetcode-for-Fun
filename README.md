@@ -191,17 +191,16 @@ String.valueOf(chars);
 [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/#/description) 
 
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 判断是否为二叉搜索树。
+
 > 相关问题	
 > [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/#/description)		
 > [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description)		
 > [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/#/description)
 
-[1. Two Sum](https://leetcode.com/problems/two-sum/#/description) 
-
-[167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)  重新做！！！！！有多重方法	
-[170. Two Sum III](https://discuss.leetcode.com/category/178/two-sum-iii-data-structure-design) [博客园](http://www.cnblogs.com/grandyang/p/5184143.html)
-
-[15. Three Sum](https://leetcode.com/problems/3sum/#/description)	
+[1. Two Sum](https://leetcode.com/problems/two-sum/#/description) 	
+[167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description)  思路一样，可以加入binary search		
+[170. Two Sum III](https://discuss.leetcode.com/category/178/two-sum-iii-data-structure-design) [博客园](http://www.cnblogs.com/grandyang/p/5184143.html)  结构编程，考虑trade off			
+[15. Three Sum](https://leetcode.com/problems/3sum/#/description) 采用twoSum子程序让结果更简洁			
 [18. Four SUm](https://leetcode.com/problems/4sum/#/description)
 
 [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/#/solutions)	Tree, 分治。练习必备
