@@ -9,6 +9,8 @@
  * dp[i][j]的含义是：
  *      上轮最后burst只剩下i号气球，这一轮最后burst的j号气球，计算结果的最大值。
  *      先计算间隔为2的结果，然后递推求得间隔最大的情况，即为最终结果dp[0][m - 1]；
+ * 
+ * 一个博客，包含youtube讲解。http://www.gorecursion.com/algorithm/2017/01/07/burstboolon.html
  * @author  Xingxing Huang  
  * @since   2017.05.03
  * @Time    O(n^3) for DP   
@@ -49,7 +51,7 @@ public int maxCoins(int[] iNums) {
     for (int x : iNums) if (x > 0) nums[n++] = x;
     nums[0] = nums[n++] = 1;
 
-
+    // memo用来记录搜索过的结果
     int[][] memo = new int[n][n];
     return burst(memo, nums, 0, n - 1);
 }
@@ -59,8 +61,90 @@ public int burst(int[][] memo, int[] nums, int left, int right) {
     if (memo[left][right] > 0) return memo[left][right];
     int ans = 0;
     for (int i = left + 1; i < right; ++i)
+        // 假设左边留下的是left，右边留下的是right
+        // 左右两边已经计算过的值，已经计算过，后者可以计算出来。
         ans = Math.max(ans, nums[left] * nums[i] * nums[right] 
         + burst(memo, nums, left, i) + burst(memo, nums, i, right));
     memo[left][right] = ans;
     return ans;
+}
+
+// 博客中的记忆化搜搜
+public class Solution {
+    public int maxCoins(int[] iNums) {
+        if (iNums == null || iNums.length == 0) {
+            return 0;
+        }
+        int n = iNums.length;
+        int[] nums = new int[n + 2];
+        nums[0] = nums[n + 1] =1;
+        for (int i = 0; i < n; i++) {
+            nums[i + 1] = iNums[i];
+        }    
+        int m = nums.length;
+        int[][] dp = new int[m][m];
+        return dfs(nums, 1, n, dp);
+    }
+    public int dfs(int[] num, int l, int r, int[][] dp) {
+        if (dp[l][r] != 0) {
+            return dp[l][r];
+        }
+        int coins = 0;
+        for (int i = l; i <= r; i++) {
+            int coinleft = dfs(num, l, i - 1, dp);
+            int coinright = dfs(num, i + 1, r, dp);
+            coins = Math.max(coins, num[l-1] * num[i] * num[r+1] + coinleft + coinright);
+        }
+        dp[l][r] = coins;
+        return coins;
+    }
+}
+
+
+public class Solution {
+
+    /**
+     * Dynamic programming solution.
+     */
+    public int maxCoins(int[] iNums) {
+        if (iNums == null || iNums.length == 0) {
+            return 0;
+        }
+        
+        int T[][] = new int[iNums.length][iNums.length];
+
+        for (int len = 1; len <= iNums.length; len++) {
+            for (int i = 0; i <= iNums.length - len; i++) {
+                int j = i + len - 1;
+                for (int k = i; k <= j; k++) {
+                    //leftValue/rightValue is initially 1. If there is element on
+                    // left/right of k then left/right value will take that value.
+                    int leftValue = 1;
+                    int rightValue = 1;
+                    if (i != 0) {
+                        leftValue = iNums[i-1];
+                    }
+                    if (j != iNums.length -1) {
+                        rightValue = iNums[j+1];
+                    }
+
+                    //before is initially 0. If k is i then before will
+                    //stay 0 otherwise it gets value T[i][k-1]
+                    //after is similarly 0 initially. if k is j then after will
+                    //stay 0 other will get value T[k+1][j]
+                    int before = 0;
+                    int after = 0;
+                    if (i != k) {
+                        before = T[i][k-1];
+                    }
+                    if (j != k) {
+                        after = T[k+1][j];
+                    }
+                    T[i][j] = Math.max(leftValue * iNums[k] * rightValue + before + after,
+                            T[i][j]);
+                }
+            }
+        }
+        return T[0][iNums.length - 1];
+    }
 }

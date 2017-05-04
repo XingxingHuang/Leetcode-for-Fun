@@ -241,10 +241,54 @@ String.valueOf(chars);
 
 [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/#/description) 分治，字符串的处理
 
+
+
+###分治算法题目汇总
+1. merge sort 	
+	    注意递归和非递归两种写法，查看我的[github](https://github.com/XingxingHuang/Code_Practice/tree/master/sort)中的代码
+	
+2. quick sort	
+		注意多重写法，查看我的[github](https://github.com/XingxingHuang/Code_Practice/tree/master/sort)中代码.	
+		双指针，[partition模板](./template/partition.java)
+		
+3. binary tree相关操作		
+		
+		树的遍历	
+		二叉树深度	
+		平衡二叉树		
+	
+4. 二分法相关问题			
+		大多数二分搜素比较容易。需要注意指针的边界情况处理，建议采用[二分法模板](./template/BinarySearch.java)。
+		
+5. 大数据题目中很多包含分治思想		
+		其核心是排序算法。以及HashMap的应用的相关知识。
+
+
+分治法，[五大常用算法之一](http://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741370.html)。 分而治之！
+
+| No.| Problem |  Note |
+|----|---------|------|
+| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |  每日一题[总结](http://t.cn/RaZ7MDX) | 
+| 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 优先队列存链表 | 
+| 053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [lt 41](http://www.lintcode.com/en/problem/maximum-subarray/) | 
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 多种解法，进阶[229](https://leetcode.com/problems/majority-element-ii/#/description)  | 
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  练习 | 
+| 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |   | 
+| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 简单直接  | 
+| 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | 练习  | 
+| 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) |   | 
+| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) |   | 
+| 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |   | 
+| 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) |   | 
+| 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) |   | 
+| 514 | [Freedom Trail](https://leetcode.com/problems/freedom-trail/) |   | 
+
+
+
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.05.03
+ * @since   2017.05.05
  * @Time    O(n) 	
  * @param   
  * @return  

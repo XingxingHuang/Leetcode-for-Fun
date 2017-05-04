@@ -29,3 +29,5 @@ class Solution:
         if b is None or (a is not None and a < b):
             return self.findKth(A[k / 2:], B, k - k / 2)
         return self.findKth(A, B[k / 2:], k - k / 2)
+        
+        
