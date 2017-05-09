@@ -284,11 +284,16 @@ String.valueOf(chars);
 
 [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/#/description)  转化除法为图相关问题
 
+[310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) 图，双指针，DFS，BFS均可
+
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/#/description)	
+
+[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/#/description)
 
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.05.08
+ * @since   2017.05.10	
  * @Time    O(n) 	
  * @param   
  * @return  
