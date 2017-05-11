@@ -290,6 +290,10 @@ String.valueOf(chars);
 
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/#/description)
 
+[133. Clone Graph] (https://leetcode.com/problems/clone-graph/#/description) 图，BFS分层遍历, DFS递归遍历。
+
+[491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/#/description) DFS，subset相关
+
 /**
  * 
  * @author  Xingxing Huang	
