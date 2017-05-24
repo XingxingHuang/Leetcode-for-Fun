@@ -62,6 +62,8 @@ public class Solution {
     }
 
     public int get(int key) {
+        // get 某个值，如果node存在
+        // 首先处理这个node附近的指针，然后在最后插入这个node
         if( !hs.containsKey(key)) {
             return -1;
         }
@@ -78,6 +80,9 @@ public class Solution {
     }
 
     public void set(int key, int value) {
+        // 检查key是否存在，存在直接返回。
+        // 检查容量是否超出。
+        // 插入新的key，value节点到最后。
         // this internal `get` method will update the key's position in the linked list.
         if (get(key) != -1) {
             hs.get(key).value = value;

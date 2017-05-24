@@ -294,10 +294,16 @@ String.valueOf(chars);
 
 [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/#/description) DFS，subset相关
 
+[274. H-Index](https://leetcode.com/problems/h-index/#/description) 排序问题。
+
+[275. H-Index II](https://leetcode.com/problems/h-index-ii/#/description) 二分法
+
+[75. Sort Colors](https://leetcode.com/problems/sort-colors/#/solutions) 一般的partition方法无法解决，需要三个指针。注意！！
+
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.05.10	
+ * @since   2017.05.23	
  * @Time    O(n) 	
  * @param   
  * @return  
