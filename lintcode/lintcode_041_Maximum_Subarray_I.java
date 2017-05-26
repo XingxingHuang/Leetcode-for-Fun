@@ -44,7 +44,7 @@ public class Solution {
     }
 }
 
-// O(n)解法
+// 如果前面的和小于0的话，就不需要前面的部分。
 public class Solution {
     public int maxSubArray(int[] A) {
         if (A == null || A.length == 0){
