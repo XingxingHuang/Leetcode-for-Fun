@@ -300,10 +300,12 @@ String.valueOf(chars);
 
 [75. Sort Colors](https://leetcode.com/problems/sort-colors/#/solutions) 一般的partition方法无法解决，需要三个指针。注意！！
 
+[624. Maximum Distance in Arrays](https://leetcode.com/contest/leetcode-weekly-contest-37/problems/maximum-distance-in-arrays/) 
+
 /**
  * 
  * @author  Xingxing Huang	
- * @since   2017.05.23	
+ * @since   2017.06.17	
  * @Time    O(n) 	
  * @param   
  * @return  

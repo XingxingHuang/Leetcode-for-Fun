@@ -6,6 +6,10 @@
 //   Valid Palindrome
 //   quick sort/ quick select/ nuts bolts problem/wiggle sort II
 
+// two slides about partition 
+// http://algs4.cs.princeton.edu/lectures/23DemoPartitioning.pdf
+// https://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf
+
 public int partition (int[] nums, int l, int r) {
     // 初始化左右指针和pivot
     int left = l;
