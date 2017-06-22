@@ -1,3 +1,4 @@
+// http://www.lintcode.com/en/problem/coins-in-a-line/
 public class Solution {
     /**
      * @param n: an integer
@@ -12,3 +13,6 @@ public class Solution {
         return true;
     }
 }
+
+// 九章的不同算法解析
+// http://www.jiuzhang.com/solution/coins-in-a-line/
