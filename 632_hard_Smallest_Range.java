@@ -1,3 +1,53 @@
+// 2017.07.18 重新练习
+// @Xingxing Huang  
+// 难点，区别next数组的指标和数值，否则容易出错。记录min,max的值；循环的时用一个flag判断是否达到数组末尾
+public class Solution {
+    public int[] smallestRange(List<List<Integer>> nums) {
+        int m = nums.size();
+        int[] next = new int[m];
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>(
+                                            (i, j) -> nums.get(i).get(next[i]) - 
+                                            nums.get(j).get(next[j]));
+        // put first values of each list into pq
+        int x = 0; // max
+        int y = 0; // min
+        for (int i = 0; i < m; i++) {
+            pq.offer(i);
+            if (nums.get(i).get(0) > nums.get(x).get(0)) 
+                x = i;
+            if (nums.get(i).get(0) < nums.get(y).get(0)) 
+                y = i;
+        }
+        int min_global = nums.get(y).get(0);
+        int max_global = nums.get(x).get(0);
+        // loop for all values
+        int max_new = max_global;
+        int min_new = min_global;
+        boolean finish_line = false;
+        for (int i = 0; i < m && !finish_line; i++) {
+            for (int j = 0; j < nums.get(i).size(); j++) {  
+                int min_index = pq.poll();
+                next[min_index]++;
+                if (next[min_index] == nums.get(min_index).size()) {
+                    finish_line = true;
+                    break;
+                }
+                pq.offer(min_index);
+                int new_y = pq.peek();
+                max_new = Math.max(max_new, 
+                                   nums.get(min_index).get(next[min_index]));
+                min_new = nums.get(new_y).get(next[new_y]);
+                if (max_new - min_new < max_global - min_global) {
+                    min_global = min_new;
+                    max_global = max_new;
+                }
+            }
+        }
+        return new int[] {min_global, max_global};
+    }
+}
+
+
 // 注意使用PriorityQueue提升性能。
 // 注意PQ中使用的是坐标，判断大小使用的是数组元素的值。
 public class Solution {
