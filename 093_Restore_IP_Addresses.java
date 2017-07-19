@@ -27,6 +27,7 @@
 //         }
 //     }
 // }
+
 public class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> solutions = new ArrayList<String>();
@@ -43,6 +44,30 @@ public class Solution {
             String s = ip.substring(idx,idx+i);
             if ((s.startsWith("0") && s.length()>1) || (i==3 && Integer.parseInt(s) >= 256)) continue;
             restoreIp(ip, solutions, idx+i, restored+s+(count==3?"" : "."), count+1);
+        }
+    }
+}
+
+public class Solution {
+    public List<String> restoreIpAddresses(String s) {
+        List<String> res = new ArrayList<>();
+        helper(s, 0, res, "", 0);
+        return res;
+    }
+    private void helper(String s, int idx, List<String> res, String str, int count) {
+        if (count == 4 && idx == s.length()) 
+            res.add(str);
+        if (count >= 4 || idx >= s.length()) 
+            return;
+        if (count > 0) 
+            str += ".";
+        // 每一次选择至多三个字符，然后判断。
+        for (int i = 1; i < 4; i++) {
+            if ((s.charAt(idx) == '0' && i > 1) || (idx + i > s.length()))  // 边界条件注意
+                break;
+            if (Integer.parseInt(s.substring(idx, idx + i)) <= 255) {
+                helper(s, idx + i, res, str + s.substring(idx, idx + i), count + 1);
+            }
         }
     }
 }
