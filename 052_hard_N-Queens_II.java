@@ -1,3 +1,33 @@
+// Author: Xingxing Huang
+public class Solution {
+    public int totalNQueens(int n) {
+        int[] cols = new int[n];
+        return dfs(n, cols, 0, 0);
+    }
+    private int dfs(int n, int[] cols, int count, int idx) {
+        if (idx == n) {
+            ++count;
+            return count;
+        }
+        for (int i = 0; i < n; i++) {
+            boolean isValid = true;
+            for (int row = 0; row < idx; row++) {
+                if (i == cols[row] || idx + i == row + cols[row] || idx - i == row - cols[row]) {
+                    isValid = false;
+                    break;
+                }
+            }
+            if (isValid) {
+                cols[idx] = i;
+                count = dfs(n, cols, count, idx + 1);
+            }
+        }
+        return count;
+    } 
+}
+
+
+// solution
 public class Solution {
     int count = 0;
     public int totalNQueens(int n) {
