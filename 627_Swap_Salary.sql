@@ -1,5 +1,6 @@
-UPDATE salary SET sex = IF(sex = 'm', 'f', 'm')
+2017.07.23   
 
+UPDATE salary SET sex = IF(sex = 'm', 'f', 'm')
 
 update salary set sex = CHAR(ASCII('f') ^ ASCII('m') ^ ASCII(sex));
 
