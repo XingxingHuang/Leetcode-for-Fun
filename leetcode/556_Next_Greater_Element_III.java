@@ -1,30 +1,31 @@
-// 2017.07.26
 public class Solution {
     public int nextGreaterElement(int n) {
         char[] chars = String.valueOf(n).toCharArray();
-        for (int i = 0; i < n - 1; i++) {
-            if (chars[n - 2 - i] < chars[n - 1 - i]) {
-                int index = n - 2 - i;
-                break;
-            }
-            if (i == n - 2)  
-                return -1;
-        }
-        int index_small = Integer.MAX_VALUE;
-        for (int j = index; j >= 0; j--) {
-            if (chars[j] > chars[i]) {
-                int index_small = j;
+        int index = 0;
+        int m = chars.length;
+        int i = 0;
+        for (i = 0; i < m - 1; i++) {
+            if (chars[m - 2 - i] < chars[m - 1 - i]) {
+                index = m - 2 - i;
                 break;
             }
         }
-        if (index_small == Integer.MAX_VALUE) {
+        if (i == m - 1)  // desc sequence
             return -1;
+        int index_small = index + 1;
+        for (int j = index + 1; j < m; j++) {
+            if (chars[j] > chars[index] && chars[j] <= chars[index_small]) {
+                index_small = j;
+            }
         }
         swap(chars, index, index_small);
-        return Ingeter.valueOf(Character.toString(chars));
+        Arrays.sort(chars, index_small + 1, m);  // sort 
+        //return Integer.valueOf(String.valueOf(chars));
+        long val = Long.parseLong(new String(chars));
+        return val >= Integer.MAX_VALUE ? -1 : (int) val;
     }
-    private void swap(int nums, int i , int j) {
-        int temp = nums[i];
+    private void swap(char[] nums, int i , int j) {
+        char temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
