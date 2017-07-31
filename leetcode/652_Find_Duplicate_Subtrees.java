@@ -8,8 +8,25 @@
  * }
  */
 // Remember to serialize and deserialize tree before compare the tree!!
+public class Solution {
+    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+        List<TreeNode> res = new LinkedList<>();
+        postorder(root, new HashMap<>(), res);
+        return res;
+    }
+
+    public String postorder(TreeNode cur, Map<String, Integer> map, List<TreeNode> res) {
+        if (cur == null) return "#";  
+        String serial = cur.val + "," + postorder(cur.left, map, res) + "," + postorder(cur.right, map, res);
+        if (map.getOrDefault(serial, 0) == 1) 
+            res.add(cur);
+        map.put(serial, map.getOrDefault(serial, 0) + 1);
+        return serial;
+    }
+}
 
 // // 2017.07.29 QUESTION 1 time exceed;
+// // 我的这个暴力方法中，每次加入新的节点的时候需要遍历整个hashmap来匹配相同的tree，这里其实没有用到hashmap的优势，增加了时间复杂度
 // public class Solution {
 //     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
 //         HashMap<TreeNode, Integer> map = new HashMap<>();
