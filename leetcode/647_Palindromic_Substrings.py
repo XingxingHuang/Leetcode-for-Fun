@@ -1,3 +1,4 @@
+# XingxingHuang  暴力解法，分解成偶数和奇数情况从当前字符展开计算palindromic的计数
 class Solution(object):
     def countSubstrings(self, s):
         """
@@ -7,7 +8,6 @@ class Solution(object):
         count = 0;
         for i in range(len(s)):
             # # itself
-            # count += 1
             # 2n + 1
             for j in range(len(s)):
                 if (i - j >= 0 and i + j < len(s) and s[i - j] == s[i + j]):
