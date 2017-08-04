@@ -10,7 +10,13 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 * gcd method to calculate greatest common divisor.
 * Compare two tree, please first serialize and deserialize tree.
+* While using DP, we may modify the dp array with another non-linear way. 
 
+
+#### Recodes for some "Hard" questions
+[649](https://leetcode.com/problems/dota2-senate/discuss/), [495](https://leetcode.com/problems/teemo-attacking/description/). greedy
+
+[650](https://leetcode.com/problems/2-keys-keyboard/description/), [651](https://leetcode.com/problems/4-keys-keyboard/description/) DP 
 
 
 --
