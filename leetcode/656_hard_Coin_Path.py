@@ -1,5 +1,5 @@
+#  lee215 
 class Solution(object):
-
     def cheapestJump(self, A, B):
         """
         :type A: List[int]
@@ -11,6 +11,7 @@ class Solution(object):
         dp = [[float('inf')] for i in A]
         dp[0] = [A[0], 1]
         N = len(A)
+        
         for i in range(N):
             if A[i] == -1:
                 continue
@@ -23,5 +24,4 @@ class Solution(object):
                     path = dp[i][1:] + [j + 1]
                     if path < dp[j][1:]:
                         dp[j] = [dp[i][0] + A[j]] + dp[i][1:] + [j + 1]
-        # return dp
         return dp[-1][1:]
