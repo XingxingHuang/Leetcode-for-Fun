@@ -9,6 +9,12 @@ Practice is so helpful to improve one's coding skills. This github records the d
 > string, tree, graph, hashing, matrices
 
 * gcd method to calculate greatest common divisor.
+* 
+```java
+        static long gcd(long a, long b) {
+            return b == 0 ? a : gcd(b, a % b);
+        }
+```
 * Compare two tree, please first serialize and deserialize tree.
 * While using DP, we may modify the dp array with another non-linear way. 
 

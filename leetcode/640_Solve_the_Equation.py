@@ -1,3 +1,49 @@
+# 2017.08.10 XingxingHuang
+class Solution(object):
+    def solveEquation(self, equation):
+        """
+        :type equation: str
+        :rtype: str
+        """
+        texts = equation.split("=")
+        a1, b1 = self.parse(texts[0])
+        a2, b2 = self.parse(texts[1])
+        a = a1 - a2
+        b = b2 - b1
+        if (a == 0 and b != 0):
+            return "No solution"
+        elif (a == 0 and b == 0):
+            return "Infinite solutions"
+        else:
+            return "x=" + str(b / a);
+    def parse(self, text):
+        a = 0; b = 0
+        i = 0; j = 0
+        while (j <= len(text)):
+            if (j == len(text) or (i != j and text[j] in ['-', '+'])):
+                tmpa, tmpb = self.getnum(text[i:j])
+                a += tmpa
+                b += tmpb
+                # print text[i:j]," : " ,tmpa, tmpb
+                i = j
+            j += 1
+        return a, b
+    def getnum(self, text):
+        a = 0; b = 0
+        sign = 1
+        if (text[0] == '-'):
+            sign = -1
+        text = text[1:] if text[0] in ['-', '+'] else text
+        if (text[-1] == 'x' and len(text) == 1):
+            a = 1
+        elif (text[-1] == 'x'):
+            a = int(text[0:-1])
+        else:
+            b = int(text)
+        return sign * a, sign * b
+        
+        
+        
 class Solution(object):
     def solveEquation(self, equation):
         """

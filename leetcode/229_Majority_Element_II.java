@@ -1,3 +1,40 @@
+//2017.08.09 XingxingHuang
+public class Solution {
+    public List<Integer> majorityElement(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int i = 0; i < nums.length; i++){
+            if (map.size() < 3) {
+                map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+            } else if (map.containsKey(nums[i])){
+                map.put(nums[i], map.get(nums[i]) + 1);
+            } else {
+                for (int key : map.keySet()) {
+                    map.put(key, map.get(key) - 1);
+                    if (map.get(key) == 0){
+                        map.remove(key);
+                        break;
+                    }            
+                }
+            }
+        }
+        
+        for (int key: map.keySet()) 
+            map.put(key, 0);
+        
+        for (int i = 0; i < nums.length; i++){
+            if (map.containsKey(nums[i])) 
+                map.put(nums[i], map.get(nums[i]) + 1);
+        }
+        List<Integer> list = new ArrayList<Integer>();
+        for (int key: map.keySet()) {
+            if (map.get(key) > nums.length / 3) 
+                list.add(key);
+        }
+        return list;
+    }
+}
+
+
 /**
  * 
  * @author  Xingxing Huang  
