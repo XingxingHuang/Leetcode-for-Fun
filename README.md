@@ -26,6 +26,7 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/) matrix sum, binary search, DP, TreeSet
 
+[659](https://leetcode.com/contest/leetcode-weekly-contest-45/problems/remove-9/) 
 --
 
 http://wiki.jikexueyuan.com/project/for-offer/question-three.html
