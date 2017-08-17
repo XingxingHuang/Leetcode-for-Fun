@@ -17,6 +17,27 @@ public class Solution {
     }
 }
 
+
+// 注意与上面的区别
+public class Solution {
+    public int kInversePairs(int n, int k) {
+        int M = 1000000007;
+        int[][] dp = new int[n+1][k+1];
+        for (int i = 0; i <= n; i++)
+            dp[i][0] = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= k; j++) {
+                // dp[i][j] = dp[i][j - 1] + dp[i - 1][j] - dp[i - 1][j - i];
+                if (j - i >= 0) 
+                    dp[i][j] = (dp[i][j - 1] + (dp[i - 1][j] - dp[i - 1][j - i] + M) % M ) % M;
+                else 
+                    dp[i][j] = (dp[i][j - 1] + dp[i - 1][j]) % M;
+            }
+        }
+        return dp[n][k];
+    }
+}
+
 public class Solution {
     public int kInversePairs(int n, int k) {
         int[][] dp = new int[n + 1][k + 1];
