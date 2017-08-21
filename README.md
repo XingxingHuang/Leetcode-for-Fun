@@ -18,6 +18,17 @@ Practice is so helpful to improve one's coding skills. This github records the d
 * Compare two tree, please first serialize and deserialize tree.
 * While using DP, we may modify the dp array with another non-linear way. 
 
+* bit 
+* 		
+```java
+	x = x + y;
+	y = x - y;
+	x = x - y; 
+	
+	x = x^y; // 只能对int,char. 存不一样的bit位
+	y = x^y; 
+	x = x^y;
+```
 
 #### Recodes for some "Hard" questions
 [649](https://leetcode.com/problems/dota2-senate/discuss/), [495](https://leetcode.com/problems/teemo-attacking/description/). greedy
@@ -26,7 +37,12 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/) matrix sum, binary search, DP, TreeSet
 
-[659](https://leetcode.com/contest/leetcode-weekly-contest-45/problems/remove-9/) 
+[659](https://leetcode.com/contest/leetcode-weekly-contest-45/problems/remove-9/) Remove 9, Math,
+
+[166](https://leetcode.com/problems/fraction-to-recurring-decimal) Fraction to Recurring Decimal, Math, corner cases.
+
+[137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation.
+
 --
 
 http://wiki.jikexueyuan.com/project/for-offer/question-three.html
