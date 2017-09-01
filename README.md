@@ -1,7 +1,7 @@
 #### TIPs for coding
 Practice is so helpful to improve one's coding skills. This github records the daily algorithm practice. In each directory, the java or python code and some tips are included. The following is some useful tips one would meet in these online coding.
 
-* common methods (must know):
+#### common methods (must know):
 > brute force, dfd/bfs, sorting, dp, recursive, math, number theory, bit, probabilities, games, greedy, combinatorics, divide and conquer.
 > 
 > two pointer
@@ -30,6 +30,9 @@ Practice is so helpful to improve one's coding skills. This github records the d
 	x = x^y;
 ```
 
+#### summarry
+[动态规划，九章总结](http://hongzheng.me/nine-chapter-dynamic-programming/)
+
 #### Recodes for some "Hard" questions
 [649](https://leetcode.com/problems/dota2-senate/discuss/), [495](https://leetcode.com/problems/teemo-attacking/description/). greedy
 
@@ -42,6 +45,12 @@ Practice is so helpful to improve one's coding skills. This github records the d
 [166](https://leetcode.com/problems/fraction-to-recurring-decimal) Fraction to Recurring Decimal, Math, corner cases.
 
 [137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation.
+
+#### Recodes for some "must do" questions
+
+[97. InterLeaving String](https://leetcode.com/problems/interleaving-string/description/) brute force > memorization > 2D dp > 1D dp
+[609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/description/) BFS/DFS following up question about big files. 
+
 
 --
 
