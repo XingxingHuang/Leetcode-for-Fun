@@ -12,6 +12,20 @@ class Solution {
     }
 }
 
+// python 
+def flipLights(self, n, m):
+    if m == 0:      
+        return 1
+    if n == 1:
+        return 2
+    if m == 1 and n == 2:
+        return 3
+    if m == 1 or n == 2:
+        return 4
+    if m == 2:
+        return 7
+    return 8
+    
 
 //bfs https://discuss.leetcode.com/topic/102107/easy-to-understand-java-bfs-solution-o-m
 public int flipLights(int n, int m) {
