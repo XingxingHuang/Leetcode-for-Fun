@@ -1,8 +1,8 @@
 class Solution {
     public int findNumberOfLIS(int[] nums) {
         int n = nums.length;
-        int[] count = new int[n];
-        int[] height = new int[n];
+        int[] count = new int[n];  // the number with the height end with the element
+        int[] height = new int[n]; // max length of increasing sequence at the element 
         
         for (int i = 0; i < n; ++i) {
             height[i] = 1;
