@@ -1,4 +1,41 @@
 // 2017.09.10 
+class Solution {
+    public List<Integer> findAnagrams(String s, String p) {
+        List<Integer> res = new ArrayList<>();
+        if (s == null || s.length() < p.length()) 
+            return res;
+        int[] map = new int[26];
+        for (int i = 0; i < p.length(); i++) {
+            map[p.charAt(i) - 'a']++;
+        }
+        //
+        int i = 0;
+        int j = 0;
+        int count = p.length();
+        while (j < s.length()) {
+            //start
+            if (j - i == p.length()) {
+                if (map[s.charAt(i) - 'a'] >= 0) 
+                    count++;
+                map[s.charAt(i)-'a']++;
+                i++;
+            }
+            //end
+            if (map[s.charAt(j) - 'a'] >= 1) 
+                count--;
+            map[s.charAt(j) - 'a']--;
+            j++;
+            // check
+            if (count == 0) 
+                res.add(i);
+        }
+        return res;
+    }
+}
+
+
+
+// the same code as above
 // if too many duplicates in the slice, count != 0
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
