@@ -9,18 +9,19 @@ Practice is so helpful to improve one's coding skills. This github records the d
 > string, tree, graph, hashing, matrices
 
 * gcd method to calculate greatest common divisor.
-* 
+
 ```java
-        static long gcd(long a, long b) {
-            return b == 0 ? a : gcd(b, a % b);
-        }
+    static long gcd(long a, long b) {
+        return b == 0 ? a : gcd(b, a % b);
+    }
 ```
 * Compare two tree, please first serialize and deserialize tree.
 * While using DP, we may modify the dp array with another non-linear way. 
-
+* While use hashmap for char in string, use int[256] as HashMap instead.
 * bit 
-* 		
+		
 ```java
+// exchange x, y 
 	x = x + y;
 	y = x - y;
 	x = x - y; 
@@ -28,6 +29,23 @@ Practice is so helpful to improve one's coding skills. This github records the d
 	x = x^y; // 只能对int,char. 存不一样的bit位
 	y = x^y; 
 	x = x^y;
+```
+* for most substring problems. [leetcode discussion](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems)	
+
+```java
+	string minWindow(string s, string t) {
+        vector<int> map(128,0);
+        for(auto c: t) map[c]++;
+        int counter=t.size(), begin=0, end=0, d=INT_MAX, head=0;
+        while(end<s.size()){
+            if(map[s[end++]]-->0) counter--; //in t
+            while(counter==0){ //valid
+                if(end-begin<d)  d=end-(head=begin);
+                if(map[s[begin++]]++==0) counter++;  //make it invalid
+            }  
+        }
+        return d==INT_MAX? "":s.substr(head, d);
+    }
 ```
 
 #### summarry
@@ -46,9 +64,15 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation.
 
+[220](https://leetcode.com/problems/contains-duplicate-iii/discuss/) Contains Duplicate III, TreeSet
+
+[564](https://leetcode.com/problems/find-the-closest-palindrome/discuss/) Find the Closest Palindrome. Hard. Becareful for corner cases.
+
+
 #### Recodes for some "must do" questions
 
 [97. InterLeaving String](https://leetcode.com/problems/interleaving-string/description/) brute force > memorization > 2D dp > 1D dp
+
 [609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/description/) BFS/DFS following up question about big files. 
 
 
@@ -56,11 +80,15 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 http://wiki.jikexueyuan.com/project/for-offer/question-three.html
 
-* 刷题步骤 
+### 刷题经历 
+* coursera Algorithm I, 学习java，看了大神如何分析。花了不少时间。
+* （曲折）听了不少讲座，然而收效甚微
 * 牛客网 直通BAT。从而建立基本的数据结构的概念
 * cc150或者剑指offer。从lintcode上刷，建立起各种问题分析方法。于此同时查看cc150后面的OOD的几个经典内容
-* 总结各种方法。
-* 刷leetcode一遍。
+* 总结各种方法。（豁然开朗）
+* leetcode一遍。(Not possible)。200 题之后应该快速过，保持速度与量，多思考，多总结。
+* leetcode contest 强制自己思考和总结，认识不足，看牛人代码。
+* 
 
 
 基础数据结构
