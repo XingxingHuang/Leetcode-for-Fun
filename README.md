@@ -71,10 +71,11 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 #### Recodes for some "must do" questions
 
-[97. InterLeaving String](https://leetcode.com/problems/interleaving-string/description/) brute force > memorization > 2D dp > 1D dp
+[97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
 
-[609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/description/) BFS/DFS following up question about big files. 
+[609](https://leetcode.com/problems/find-duplicate-file-in-system/description/) Find Duplicate File in System. BFS/DFS following up question about big files. 
 
+[11](https://leetcode.com/problems/container-with-most-water/discuss/)   [42](https://leetcode.com/problems/trapping-rain-water) Container With Most Water. Trapping Rain Water. Two pointers.
 
 --
 
