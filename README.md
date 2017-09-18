@@ -77,6 +77,8 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [11](https://leetcode.com/problems/container-with-most-water/discuss/)   [42](https://leetcode.com/problems/trapping-rain-water) Container With Most Water. Trapping Rain Water. Two pointers.
 
+[Subsets, Permutations, Combination Sum, Palindrome Partioning](https://leetcode.com/problems/permutations/discuss/) backtrack problems
+
 --
 
 http://wiki.jikexueyuan.com/project/for-offer/question-three.html
