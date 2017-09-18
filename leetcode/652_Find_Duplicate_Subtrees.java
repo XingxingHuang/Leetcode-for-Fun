@@ -8,6 +8,7 @@
  * }
  */
 // Remember to serialize and deserialize tree before compare the tree!!
+// 09.15 比较二叉树是否相似时候，可以利用二叉树的序列化简化代码。此题一边序列化一边比较，时间复杂度为O(n)
 public class Solution {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> res = new LinkedList<>();
