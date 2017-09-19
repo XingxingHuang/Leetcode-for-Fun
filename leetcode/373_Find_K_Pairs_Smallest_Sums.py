@@ -15,12 +15,15 @@ class Solution(object):
         :type k: int
         :rtype: List[List[int]]
         """
+        # 记录(i,j)是否访问过
         signArray = [[0 for col in range(len(nums2))] for row in range(len(nums1))]
+        # key 为 最小的和
         sign = {}
         i = 0 
         j = 0 
         out = []
         while (len(out) < len(nums1) * len(nums2) and len(out) < k):
+            # 每次取出最小的 pair. 初始的时候pair 为（0, 0）
             if sign != {}:
                 key = min(sign.keys())
                 i = sign[key][-1][0]
@@ -31,10 +34,10 @@ class Solution(object):
                     sign[key].pop()
                 if signArray[i][j] == 1:
                     continue
-            #print sign
-            #print signArray
+            # 修改访问记录，加入数据到结果中。
             signArray[i][j] = 1
             out.append([nums1[i], nums2[j]])
+            # 将(i + 1, j) 和 (i, j + 1)放入存储中。
             if i + 1 < len(nums1) and signArray[i + 1][j] == 0:
                 if not nums1[i + 1] + nums2[j] in sign:
                     sign[nums1[i + 1] + nums2[j]] = []
