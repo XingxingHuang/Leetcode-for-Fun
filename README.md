@@ -68,6 +68,7 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [564](https://leetcode.com/problems/find-the-closest-palindrome/discuss/) Find the Closest Palindrome. Hard. Becareful for corner cases.
 
+[32](https://leetcode.com/problems/longest-valid-parentheses/) Longest Valid Parentheses DP, stack. hard problem but with many smart idea.
 
 #### Recodes for some "must do" questions
 
@@ -78,6 +79,12 @@ Practice is so helpful to improve one's coding skills. This github records the d
 [11](https://leetcode.com/problems/container-with-most-water/discuss/)   [42](https://leetcode.com/problems/trapping-rain-water) Container With Most Water. Trapping Rain Water. Two pointers.
 
 [Subsets, Permutations, Combination Sum, Palindrome Partioning](https://leetcode.com/problems/permutations/discuss/) backtrack problems
+
+[373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) Find K Pairs with Smallest Sums. Use priority queue for questions about "Top K". This is a hard problem.
+
+[44](https://leetcode.com/problems/wildcard-matching/discuss/) Wildcard Matching basic DP method
+
+[1](https://leetcode.com/problems/two-sum/description/) [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) Two Sum and related two sum and other N sum questions. Must do!
 
 --
 
