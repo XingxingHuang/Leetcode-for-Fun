@@ -35,6 +35,6 @@ public class Solution {
                 j = m - 1;
             }
         }
-        return j;
+        return i;
     }
 }

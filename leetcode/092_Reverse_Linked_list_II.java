@@ -88,3 +88,33 @@ public class Solution {
         return dummy.next;
     }
 }
+
+
+// 
+class Solution {
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode cur = dummy;
+        // find m, move to pre of m
+        for (int i = 0; i < m - 1; i++) {
+            cur = cur.next;
+        }
+        ListNode nodem = cur.next;
+        //find n, move to pre of n
+        ListNode noden = cur;
+        for (int i = 0; i < n - m + 1; i++) {
+            noden = noden.next;
+        }
+        cur.next = noden.next;
+        noden.next = null;
+        // reverse m,  cur, nodem
+        while (nodem != null) {
+            ListNode tmp = nodem;
+            nodem = nodem.next;
+            tmp.next = cur.next;
+            cur.next = tmp;
+        }
+        return dummy.next;
+    }
+}
