@@ -1,3 +1,45 @@
+// 0920 new 
+class Solution {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        if (beginWord == endWord) 
+            return 1;
+        Set<String> set = new HashSet<>(); // visited words
+        Set<String> words = new HashSet<>(); // all words
+        for (String word: wordList) 
+            words.add(word);
+        // start bfs
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(beginWord);
+        set.add(beginWord);
+        int count = 1;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            count++;
+            // System.out.println(count);
+            for (int k = 0; k < size; k++) {
+                String word = queue.poll();
+                for (int i = 0; i < word.length(); i++) { // each character
+                    for (int j = 0; j < 26; j++) {        // change to another character
+                        if ((char) ('a' + j) == word.charAt(i)) continue;
+                        char[] tmp = word.toCharArray();
+                        tmp[i] = (char) ('a' + j);
+                        String newword = String.valueOf(tmp);
+                        if (!words.contains(newword)) continue; // word not exist.
+                        if (set.contains(newword)) continue; // already checked.
+                        // System.out.println(newword);
+                        if (newword.equals(endWord)) return count; // 注意用equals
+                        queue.offer(newword);
+                        set.add(newword);
+                    }
+                }
+            }
+        }
+        return 0;
+    }
+}
+
+
+
 // 2017.07.29  BFS 
 // http://www.jiuzhang.com/solutions/word-ladder/
 public class Solution {

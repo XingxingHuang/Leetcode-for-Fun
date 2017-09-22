@@ -2,11 +2,12 @@
 Practice is so helpful to improve one's coding skills. This github records the daily algorithm practice. In each directory, the java or python code and some tips are included. The following is some useful tips one would meet in these online coding.
 
 #### common methods (must know):
-> brute force, dfd/bfs, sorting, dp, recursive, math, number theory, bit, probabilities, games, greedy, combinatorics, divide and conquer.
-> 
-> two pointer
-> 
-> string, tree, graph, hashing, matrices
+
+ brute force, dfd/bfs, sorting, dp, recursive, math, number theory, bit, probabilities, games, greedy, combinatorics, divide and conquer.
+ 
+ two pointer, Sweepline
+ 
+ string, tree, graph, hashing, matrices
 
 * gcd method to calculate greatest common divisor.
 
@@ -70,6 +71,8 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [32](https://leetcode.com/problems/longest-valid-parentheses/) Longest Valid Parentheses DP, stack. hard problem but with many smart idea.
 
+[218](https://leetcode.com/problems/the-skyline-problem/description/) The skyline problem. Use Sweepline method. 
+
 #### Recodes for some "must do" questions
 
 [97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
@@ -86,9 +89,28 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [1](https://leetcode.com/problems/two-sum/description/) [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) Two Sum and related two sum and other N sum questions. Must do!
 
+[189](https://leetcode.com/problems/rotate-array/description/) Easy but interesting, use as many methods as you can to rotate array.  Must know the reverse method by two reverses.
+
+[202](https://leetcode.com/problems/happy-number/description/) Happy Number. Interesting problem with two solutions. One solution is similiar to the cycle detetion in linkedlist.
+
 --
 
 http://wiki.jikexueyuan.com/project/for-offer/question-three.html
+
+### Resources
+[www.glassdoor.ca](www.glassdoor.ca)	
+[www.careercup.com](www.careercup.com)	
+[www.geeksforgeeks.com](www.geeksforgeeks.com)	
+[www.leetcode.com](www.leetcode.com)	
+[www.hackerrank.com](www.hackerrank.com)	
+[www.topcoder.com](www.topcoder.com)	
+
+**Mock Interviews**
+
+* groups of 2 or 3(max)
+* Interviewee, ask questions, discuss approach, though as code 
+* Interviewer, pick question, guide if lost
+
 
 ### 刷题经历 
 * coursera Algorithm I, 学习java，看了大神如何分析。花了不少时间。

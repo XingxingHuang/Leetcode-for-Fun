@@ -1,6 +1,9 @@
 # Code
 
+This is an old file to help me get familiar with leetcode questions. However, after I have practiced 200 questions, I have known pretty much of the basics to make the code done. So I stop to update this file. I only add new tips and also include some hard or interesting coding questions into the ["README.md"](./README.md) file
+
 Learning the coding day by day. 
+---
 
 这里仅仅是学习算法前期的一些题目，当时为了督促自己刷题，每刷一题的时候都会记录，帮助回忆一下这个题目的要点难点，知识点等等。刷到200题目的时候发现很多题目其实练习的意义不大。大多数题目都很相似，或者也有很简单的，每次都把题目标题拷贝下来用处不大。因此后面的题目并没有具体分析。但是java文件中依然会记录一些题目的思路和要点。欢迎参考，提出建议。
 
