@@ -3,6 +3,7 @@
 // 对每一个高度，我们查看是否需要修改result。
 //      每次取出最大高度，如果高度变化了，那么假如到result中。
 //      如果高度不变，不添加。
+// skline 这题属于扫描线一类。先将所有的建筑按照横坐标位置排序，然后按照坐标值大小从左往右扫描， 记录当前包含的building的最高点的位置得到最后的结果。但是每个building都有都有起始位置和结束位置，如何区分就是用了正负号来增加一个信息判断。
 class Solution {
     public List<int[]> getSkyline(int[][] buildings) {
         List<int[]> result = new ArrayList<>();
