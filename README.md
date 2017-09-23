@@ -49,6 +49,8 @@ Practice is so helpful to improve one's coding skills. This github records the d
     }
 ```
 
+* to find the one different char or int, use bit manipulation like [389](https://leetcode.com/problems/find-the-difference/)
+
 #### summarry
 [动态规划，九章总结](http://hongzheng.me/nine-chapter-dynamic-programming/)
 
@@ -77,7 +79,7 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
 
-[609](https://leetcode.com/problems/find-duplicate-file-in-system/description/) Find Duplicate File in System. BFS/DFS following up question about big files. 
+[609](https://leetcode.com/problems/find-duplicate-file-in-system/description/) Find Duplicate File in System. Interesting, BFS/DFS for the follow up question about big files. 
 
 [11](https://leetcode.com/problems/container-with-most-water/discuss/)   [42](https://leetcode.com/problems/trapping-rain-water) Container With Most Water. Trapping Rain Water. Two pointers.
 
@@ -92,6 +94,10 @@ Practice is so helpful to improve one's coding skills. This github records the d
 [189](https://leetcode.com/problems/rotate-array/description/) Easy but interesting, use as many methods as you can to rotate array.  Must know the reverse method by two reverses.
 
 [202](https://leetcode.com/problems/happy-number/description/) Happy Number. Interesting problem with two solutions. One solution is similiar to the cycle detetion in linkedlist.
+
+[401](https://leetcode.com/problems/binary-watch/discuss/) easy question. Attention: think more about each question. Every question has its own method. 
+
+[404](https://leetcode.com/problems/sum-of-left-leaves) Sum of Left Leaves. Many tree problems can be solved with iterative and recursive methods.
 
 --
 
