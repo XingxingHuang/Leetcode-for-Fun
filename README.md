@@ -75,29 +75,36 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [218](https://leetcode.com/problems/the-skyline-problem/description/) The skyline problem. Use Sweepline method. 
 
+[30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) Substring with Concatenation of All Words. Two different method, the fast one is hard. 
+
 #### Recodes for some "must do" questions
 
-[97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
-
-[609](https://leetcode.com/problems/find-duplicate-file-in-system/description/) Find Duplicate File in System. Interesting, BFS/DFS for the follow up question about big files. 
+[1](https://leetcode.com/problems/two-sum/description/) [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) Two Sum and related two sum and other N sum questions. Must do!
 
 [11](https://leetcode.com/problems/container-with-most-water/discuss/)   [42](https://leetcode.com/problems/trapping-rain-water) Container With Most Water. Trapping Rain Water. Two pointers.
 
 [Subsets, Permutations, Combination Sum, Palindrome Partioning](https://leetcode.com/problems/permutations/discuss/) backtrack problems
 
-[373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) Find K Pairs with Smallest Sums. Use priority queue for questions about "Top K". This is a hard problem.
-
 [44](https://leetcode.com/problems/wildcard-matching/discuss/) Wildcard Matching basic DP method
 
-[1](https://leetcode.com/problems/two-sum/description/) [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) Two Sum and related two sum and other N sum questions. Must do!
+[54](https://leetcode.com/problems/spiral-matrix/description/) Spiral Matrix. Print maxtix problem. Practice the basic coding skill with edges.
+
+[97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
+
 
 [189](https://leetcode.com/problems/rotate-array/description/) Easy but interesting, use as many methods as you can to rotate array.  Must know the reverse method by two reverses.
 
 [202](https://leetcode.com/problems/happy-number/description/) Happy Number. Interesting problem with two solutions. One solution is similiar to the cycle detetion in linkedlist.
 
+[373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) Find K Pairs with Smallest Sums. Use priority queue for questions about "Top K". This is a hard problem.
+
 [401](https://leetcode.com/problems/binary-watch/discuss/) easy question. Attention: think more about each question. Every question has its own method. 
 
 [404](https://leetcode.com/problems/sum-of-left-leaves) Sum of Left Leaves. Many tree problems can be solved with iterative and recursive methods.
+
+[458](https://leetcode.com/problems/poor-pigs/) Poor Pigs.
+
+[609](https://leetcode.com/problems/find-duplicate-file-in-system/description/) Find Duplicate File in System. Interesting, BFS/DFS for the follow up question about big files. 
 
 --
 
