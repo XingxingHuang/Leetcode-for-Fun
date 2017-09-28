@@ -30,6 +30,10 @@ Practice is so helpful to improve one's coding skills. This github records the d
 	x = x^y; // 只能对int,char. 存不一样的bit位
 	y = x^y; 
 	x = x^y;
+	
+// get the last 1.
+// in bit, -diff is reverse every bit position and plus 1.
+diff &= -diff;
 ```
 * for most substring problems. [leetcode discussion](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems)	
 
@@ -65,7 +69,7 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 [166](https://leetcode.com/problems/fraction-to-recurring-decimal) Fraction to Recurring Decimal, Math, corner cases.
 
-[137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation.
+[137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation. very hard
 
 [220](https://leetcode.com/problems/contains-duplicate-iii/discuss/) Contains Duplicate III, TreeSet
 
@@ -76,6 +80,9 @@ Practice is so helpful to improve one's coding skills. This github records the d
 [218](https://leetcode.com/problems/the-skyline-problem/description/) The skyline problem. Use Sweepline method. 
 
 [30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) Substring with Concatenation of All Words. Two different method, the fast one is hard. 
+
+[146](https://leetcode.com/problems/lru-cache) LRU Cache LinkedHashMap
+
 
 #### Recodes for some "must do" questions
 
