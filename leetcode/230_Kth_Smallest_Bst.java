@@ -7,6 +7,28 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+// 10.02 @Xing
+// inorder tranverse the BST and find the kth elements.
+class Solution {
+    private int res;
+    public int kthSmallest(TreeNode root, int k) {
+        search(root, k, 1);
+        return res;
+    }
+    public int search(TreeNode root, int k, int idx) {
+        if (root.left != null) 
+            idx = search(root.left, k, idx);
+        if (idx == k) 
+            res = root.val;
+        idx++;
+        if (root.right != null) 
+            idx = search(root.right, k, idx);
+        return idx;
+    }
+}
+
+
 /**
  * 
  * @author  Xingxing Huang  
@@ -17,7 +39,6 @@
  */
 public class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        //int count = countTree(root);
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.isEmpty()) {
             while (root != null) {

@@ -98,6 +98,7 @@ diff &= -diff;
 
 [97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
 
+[98](https://leetcode.com/problems/validate-binary-search-tree/description/) Binary search tree. Please practice with different methods. recursive with and without global variation, non recursive. 
 
 [189](https://leetcode.com/problems/rotate-array/description/) Easy but interesting, use as many methods as you can to rotate array.  Must know the reverse method by two reverses.
 
