@@ -3,11 +3,13 @@ Practice is so helpful to improve one's coding skills. This github records the d
 
 #### common methods (must know):
 
- brute force, dfd/bfs, sorting, dp, recursive, math, number theory, bit, probabilities, games, greedy, combinatorics, divide and conquer.
+ brute force, dfs/bfs, sorting, dp, recursive, math, number theory, bit, probabilities, games, greedy, combinatorics, divide and conquer.
  
  two pointer, Sweepline
  
  string, tree, graph, hashing, matrices
+ 
+* dp: understand the optimization from brute force to memorization to dp, buttom-top method, top-buttom method.
 
 * gcd method to calculate greatest common divisor.
 
@@ -83,6 +85,7 @@ diff &= -diff;
 
 [146](https://leetcode.com/problems/lru-cache) LRU Cache LinkedHashMap
 
+[479](https://leetcode.com/problems/largest-palindrome-product/) Largest Palindrome Product. Math
 
 #### Recodes for some "must do" questions
 
@@ -111,6 +114,8 @@ diff &= -diff;
 [404](https://leetcode.com/problems/sum-of-left-leaves) Sum of Left Leaves. Many tree problems can be solved with iterative and recursive methods.
 
 [458](https://leetcode.com/problems/poor-pigs/) Poor Pigs.
+
+[581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) Shortest Unsorted Continuous Subarray. Interesting easy problem with several kinds of solutions.
 
 [609](https://leetcode.com/problems/find-duplicate-file-in-system/description/) Find Duplicate File in System. Interesting, BFS/DFS for the follow up question about big files. 
 
