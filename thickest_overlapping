@@ -1,0 +1,50 @@
+// package whatever; // don't place package name!
+
+import java.io.*;
+import java.util.*;
+
+class myCode
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        int[][] list = new int[][]{{7, 9}, {8, 12}, {8,14}, {13,15}, {13,16}};
+        int max = solve(list);
+        System.out.println(max);
+        
+    }
+    public static int solve (int[][] nums) {
+        Arrays.sort(nums, (a, b)->(a[0]-b[0]));
+        int max = 0;
+        int count = 0;
+        PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>(){
+            public int compare(int[] a, int[] b) {
+                return a[1]- b[1];
+            }
+        });
+        for (int i = 0; i < nums.length; i++) {
+            if (pq.isEmpty()) {
+                pq.add(nums[i]);
+            } else {
+                while (!pq.isEmpty() && nums[i][0] > pq.peek()[1]) {
+                    pq.remove();
+                } 
+                pq.add(nums[i]);
+            }
+            max = Math.max(max, pq.size());
+        }
+        return max;
+    }
+}
+
+
+/* 
+Your last Python code is saved below:
+'''
+Find out the `thickest` overlapping of a list of intervals:
+Input: [[7, 9], [8, 12], [8, 14], [13, 15], [13, 16]]
+Output: 3 (@8.5, say) 
+''' 
+public class Solution {
+    public 
+}
+ */

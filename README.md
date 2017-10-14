@@ -93,6 +93,8 @@ diff &= -diff;
 
 [11](https://leetcode.com/problems/container-with-most-water/discuss/)   [42](https://leetcode.com/problems/trapping-rain-water) Container With Most Water. Trapping Rain Water. Two pointers.
 
+[34](https://leetcode.com/problems/search-for-a-range/description/) Search for a Range.  very good practice for binary search. 
+
 [Subsets, Permutations, Combination Sum, Palindrome Partioning](https://leetcode.com/problems/permutations/discuss/) backtrack problems
 
 [44](https://leetcode.com/problems/wildcard-matching/discuss/) Wildcard Matching basic DP method
