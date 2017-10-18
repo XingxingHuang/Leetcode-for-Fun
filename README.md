@@ -101,7 +101,9 @@ diff &= -diff;
 
 [54](https://leetcode.com/problems/spiral-matrix/description/) Spiral Matrix. Print maxtix problem. Practice the basic coding skill with edges.
 
-[076](https://leetcode.com/problems/minimum-window-substring/description/) Minimum Window Substring. hard, good practice for two pointers.
+[72](https://leetcode.com/problems/edit-distance/description/) Edit Distance. You will learn memorization and dp from this "hard" (actually easy) question.
+
+[76](https://leetcode.com/problems/minimum-window-substring/description/) Minimum Window Substring. hard, good practice for two pointers.
 
 [97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
 
