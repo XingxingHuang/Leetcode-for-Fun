@@ -32,3 +32,26 @@ class Solution {
 // could use dfs and bfs.
 // python in discussion
 // https://discuss.leetcode.com/topic/18444/python-solutions-recursively-bfs-queue-dfs-stack
+
+
+// 10.20
+class Solution {
+    public List<List<Integer>> pathSum(TreeNode root, int sum) {
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> cur = new ArrayList<>();
+        helper(root, sum, res, cur);
+        return res;
+    }
+    private void helper(TreeNode root, int sum, List<List<Integer>> res, List<Integer> cur) {
+        if (root == null) {
+            return;
+        }
+        sum -= root.val;
+        cur.add(root.val);
+        if (sum == 0 && root.left == null && root.right == null)
+            res.add(new ArrayList<Integer>(cur));
+        helper(root.left, sum, res, cur);
+        helper(root.right, sum, res, cur);
+        cur.remove(cur.size() - 1);
+    }
+}
