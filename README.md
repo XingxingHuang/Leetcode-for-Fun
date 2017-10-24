@@ -57,6 +57,8 @@ diff &= -diff;
 
 * to find the one different char or int, use bit manipulation like [389](https://leetcode.com/problems/find-the-difference/)
 
+* segment tree (307)
+
 #### summarry
 [动态规划，九章总结](http://hongzheng.me/nine-chapter-dynamic-programming/)
 
@@ -112,6 +114,8 @@ diff &= -diff;
 [189](https://leetcode.com/problems/rotate-array/description/) Easy but interesting, use as many methods as you can to rotate array.  Must know the reverse method by two reverses.
 
 [202](https://leetcode.com/problems/happy-number/description/) Happy Number. Interesting problem with two solutions. One solution is similiar to the cycle detetion in linkedlist.
+
+[307](https://leetcode.com/problems/range-sum-query-mutable/description/) Range Sum Query - Mutable. Studey how to use segment tree
 
 [373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) Find K Pairs with Smallest Sums. Use priority queue for questions about "Top K". This is a hard problem.
 
