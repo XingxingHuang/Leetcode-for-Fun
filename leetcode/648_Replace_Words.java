@@ -1,3 +1,71 @@
+// 12.04 Trie tree 练习
+public class Solution {
+    public String replaceWords(List<String> dict, String sentence) {
+        String[] words = sentence.split(" ");
+        Trie trie = new Trie();
+        trie.build(dict);
+        
+        StringBuilder sb = new StringBuilder();
+        for (String word: words) {
+            sb.append(trie.find(word));
+            sb.append(" ");
+        }
+        return sb.substring(0, sb.length() - 1);
+    }
+}
+
+class Trie{
+    public TrieNode root;
+    public Trie(){
+        this.root = new TrieNode(' ');
+    }
+    public TrieNode build(List<String> words) {
+        for (String word: words) {
+            TrieNode node = root;
+            // search the Trie tree
+            for (char c: word.toCharArray()) {
+                if (node.children[c - 'a'] == null) {
+                    node.children[c - 'a'] = new TrieNode(c);
+                }
+                node = node.children[c - 'a'];
+            }
+            node.isWord = true;
+        }
+        return root;
+    }
+    public String find(String word) {
+        TrieNode node = root;
+        StringBuilder sb = new StringBuilder();
+        for (char c: word.toCharArray()) {
+            sb.append(c);
+            if (node.children[c - 'a'] == null) {
+                return word;
+            }
+            if (node.children[c - 'a'].isWord) {
+                return sb.toString();
+            }   
+            node = node.children[c - 'a'];
+        }
+        return word;
+    }
+}
+
+class TrieNode {
+    char val;
+    TrieNode[] children;
+    boolean isWord;
+    public TrieNode(char val) {
+        this.val = val;
+        this.children = new TrieNode[26];
+        this.isWord = false;
+    }
+}
+
+
+
+///
+
+
 public String replaceWords(List<String> dict, String sentence) {
     Trie trie = new Trie(256);
     dict.forEach(s -> trie.insert(s));
