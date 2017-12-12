@@ -1,3 +1,5 @@
+// 经典题目
+// https://discuss.leetcode.com/topic/46162/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partioning
 // backtrack
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
