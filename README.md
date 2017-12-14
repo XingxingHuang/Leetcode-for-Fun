@@ -63,31 +63,35 @@ diff &= -diff;
 [动态规划，九章总结](http://hongzheng.me/nine-chapter-dynamic-programming/)
 
 #### Recodes for some "Hard" questions
+[30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) Substring with Concatenation of All Words. Two different method, the fast one is hard. 
+
+[32](https://leetcode.com/problems/longest-valid-parentheses/) Longest Valid Parentheses DP, stack. hard problem but with many smart idea.
+
+[134](https://leetcode.com/problems/gas-station/discuss/) very good practice. Not so straightforward.
+
+[137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation. very hard
+
+[146](https://leetcode.com/problems/lru-cache) LRU Cache LinkedHashMap
+
+[166](https://leetcode.com/problems/fraction-to-recurring-decimal) Fraction to Recurring Decimal, Math, corner cases.
+
+[218](https://leetcode.com/problems/the-skyline-problem/description/) The skyline problem. Use Sweepline method.
+
+[220](https://leetcode.com/problems/contains-duplicate-iii/discuss/) Contains Duplicate III, TreeSet
+
+[363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/) matrix sum, binary search, DP, TreeSet
+
+[368](https://leetcode.com/problems/largest-divisible-subset/discuss/#)  DP, need some thought, have fun. 
+
+[479](https://leetcode.com/problems/largest-palindrome-product/) Largest Palindrome Product. Math
+
+[564](https://leetcode.com/problems/find-the-closest-palindrome/discuss/) Find the Closest Palindrome. Hard. Becareful for corner cases.
+
 [649](https://leetcode.com/problems/dota2-senate/discuss/), [495](https://leetcode.com/problems/teemo-attacking/description/). greedy
 
 [650](https://leetcode.com/problems/2-keys-keyboard/description/), [651](https://leetcode.com/problems/4-keys-keyboard/description/) DP 
 
-[363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/) matrix sum, binary search, DP, TreeSet
-
 [659](https://leetcode.com/contest/leetcode-weekly-contest-45/problems/remove-9/) Remove 9, Math,
-
-[166](https://leetcode.com/problems/fraction-to-recurring-decimal) Fraction to Recurring Decimal, Math, corner cases.
-
-[137](https://leetcode.com/problems/single-number-ii/discuss/) Single Number II, bit manipunation. very hard
-
-[220](https://leetcode.com/problems/contains-duplicate-iii/discuss/) Contains Duplicate III, TreeSet
-
-[564](https://leetcode.com/problems/find-the-closest-palindrome/discuss/) Find the Closest Palindrome. Hard. Becareful for corner cases.
-
-[32](https://leetcode.com/problems/longest-valid-parentheses/) Longest Valid Parentheses DP, stack. hard problem but with many smart idea.
-
-[218](https://leetcode.com/problems/the-skyline-problem/description/) The skyline problem. Use Sweepline method. 
-
-[30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) Substring with Concatenation of All Words. Two different method, the fast one is hard. 
-
-[146](https://leetcode.com/problems/lru-cache) LRU Cache LinkedHashMap
-
-[479](https://leetcode.com/problems/largest-palindrome-product/) Largest Palindrome Product. Math
 
 #### Recodes for some "must do" questions
 
@@ -101,6 +105,8 @@ diff &= -diff;
 
 [44](https://leetcode.com/problems/wildcard-matching/discuss/) Wildcard Matching basic DP method
 
+[46](https://leetcode.com/problems/permutations/description/) [47](https://leetcode.com/problems/permutations-ii/description/) Very common question. Check [discussion](https://discuss.leetcode.com/topic/46162/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partioning) for a summary.
+
 [54](https://leetcode.com/problems/spiral-matrix/description/) Spiral Matrix. Print maxtix problem. Practice the basic coding skill with edges.
 
 [72](https://leetcode.com/problems/edit-distance/description/) Edit Distance. You will learn memorization and dp from this "hard" (actually easy) question.
@@ -110,6 +116,10 @@ diff &= -diff;
 [97](https://leetcode.com/problems/interleaving-string/description/) InterLeaving String. brute force > memorization > 2D dp > 1D dp
 
 [98](https://leetcode.com/problems/validate-binary-search-tree/description/) Binary search tree. Please practice with different methods. recursive with and without global variation, non recursive. 
+
+[105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/) Tree preorder inorder. Very interesting and useful practice for backtrack.
+
+[116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/) Very good exercise for trees.
 
 [189](https://leetcode.com/problems/rotate-array/description/) Easy but interesting, use as many methods as you can to rotate array.  Must know the reverse method by two reverses.
 
