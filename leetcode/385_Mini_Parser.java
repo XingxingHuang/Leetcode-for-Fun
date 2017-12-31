@@ -28,6 +28,7 @@
  */
 
 // 09.22  not a very good code, but esay to read;
+// 一次从左到右遍历字符，几种情况，[  ] , - number
 class Solution {
     public NestedInteger deserialize(String s) {
         if (s == null || s.length() == 0)
@@ -77,6 +78,7 @@ class Solution {
 }
 
 // best solution 
+// 节省了每次判断字符是数字的时候的代码
 public class Solution {
     public NestedInteger deserialize(String s) {
         if (s == null || s.isEmpty()) {
