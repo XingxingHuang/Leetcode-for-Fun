@@ -75,7 +75,7 @@ class Solution:
         return False
             
   
-// 未完成，代码错误，没有考虑从后往前的情形   
+// 两个dp代码错误，没有考虑从后往前的情形，没有考虑每一层的关系 
 class Solution:
     def pyramidTransition(self, bottom, allowed):
         """
@@ -114,13 +114,21 @@ class Solution:
         for i in range(n):
             for j in range(i + 1, n):
                 for m in range(j - i):
-                    if dp[i][i + m] and dp[i + m + 1][j]:
-                        
-                    
-                                    
+                    for p in range(7):
+                        if not dp[i][i + m][p]:
+                            continue
+                        for q in range(7):
+                            if not dp[i + m + 1][j][q]:
+                                continue
+                            s = chr(ord('A') + p) + chr(ord('A') + q)
+                            if not s in allowed_map:
+                                continue
+                            for a in allowed_map[s]:
+                                dp[i][j][ord(a) - ord('A')] = True                     
         for k in range(7):
             if dp[0][n - 1][k]: return True
-        # print(dp)
         return False
+                    
+                
                     
                 
