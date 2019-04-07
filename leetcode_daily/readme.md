@@ -7,3 +7,10 @@ Good practices
 [229](https://leetcode.com/problems/majority-element-ii/) Majority Element II. A very smart algorithm called `Boyer-Moore Majority Vote algorithm `.  Check [here](https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration).
 
 [410](https://leetcode.com/problems/split-array-largest-sum/) Split Array Largest Sum. DP and binary search solutions. Typical sub sum method.
+
+[68](https://leetcode.com/problems/text-justification/) Text Justification. Text corner cases.
+
+
+[85](https://leetcode.com/problems/maximal-rectangle/) Maximal Rectangle. DP
+
+[474](https://leetcode.com/problems/ones-and-zeroes/) Ones and Zeros. Memorization to DP
