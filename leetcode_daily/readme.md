@@ -14,3 +14,10 @@ Good practices
 [85](https://leetcode.com/problems/maximal-rectangle/) Maximal Rectangle. DP
 
 [474](https://leetcode.com/problems/ones-and-zeroes/) Ones and Zeros. Memorization to DP
+
+
+### DP practice
+
+[322](https://leetcode.com/problems/coin-change/), [518](https://leetcode.com/problems/coin-change-2/) Coin change. 
+
+[629](https://leetcode.com/problems/k-inverse-pairs-array/) K inverse Pairs Array
