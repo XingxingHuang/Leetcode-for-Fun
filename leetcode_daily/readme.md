@@ -22,6 +22,10 @@ Good practices
 
 [629](https://leetcode.com/problems/k-inverse-pairs-array/) K inverse Pairs Array
 
+### Tree
+
+[1028](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) Recover a Tree From Preorder Traversal
+
 ### Super hard
 
 [913](https://leetcode.com/problems/cat-and-mouse/) Cat and Mouse. Graph
