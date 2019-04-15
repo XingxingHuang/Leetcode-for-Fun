@@ -21,3 +21,7 @@ Good practices
 [322](https://leetcode.com/problems/coin-change/), [518](https://leetcode.com/problems/coin-change-2/) Coin change. 
 
 [629](https://leetcode.com/problems/k-inverse-pairs-array/) K inverse Pairs Array
+
+### Super hard
+
+[913](https://leetcode.com/problems/cat-and-mouse/) Cat and Mouse. Graph
